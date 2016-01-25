@@ -12,7 +12,7 @@ class RankingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationItem.title = "当前热门"
         // Do any additional setup after loading the view.
     }
 

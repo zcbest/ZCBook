@@ -18,6 +18,7 @@
 		F0303DDA1C5613E900434518 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DD91C5613E900434518 /* NewViewController.swift */; };
 		F0303DDC1C56141200434518 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DDB1C56141200434518 /* CircleViewController.swift */; };
 		F0303DDE1C56141D00434518 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DDD1C56141D00434518 /* MoreViewController.swift */; };
+		F0303DE11C5618F500434518 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DE01C5618F500434518 /* MainNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F0303DD91C5613E900434518 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		F0303DDB1C56141200434518 /* CircleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
 		F0303DDD1C56141D00434518 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		F0303DE01C5618F500434518 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				F0303DDF1C56143C00434518 /* Supporting Files */,
 				F0303D9E1C5610CF00434518 /* AppDelegate.swift */,
 				F0303DA71C5610CF00434518 /* LaunchScreen.storyboard */,
+				F0303DA51C5610CF00434518 /* Assets.xcassets */,
 			);
 			path = ZCBook;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				F0303DD31C56137600434518 /* MainTabBarController.swift */,
+				F0303DE01C5618F500434518 /* MainNavigationController.swift */,
 			);
 			name = "Main(公共的)";
 			sourceTree = "<group>";
@@ -187,7 +191,6 @@
 		F0303DDF1C56143C00434518 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F0303DA51C5610CF00434518 /* Assets.xcassets */,
 				F0303DAA1C5610CF00434518 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -328,6 +331,7 @@
 			files = (
 				F0303DDC1C56141200434518 /* CircleViewController.swift in Sources */,
 				F0303D9F1C5610CF00434518 /* AppDelegate.swift in Sources */,
+				F0303DE11C5618F500434518 /* MainNavigationController.swift in Sources */,
 				F0303DD41C56137600434518 /* MainTabBarController.swift in Sources */,
 				F0303DDA1C5613E900434518 /* NewViewController.swift in Sources */,
 				F0303DDE1C56141D00434518 /* MoreViewController.swift in Sources */,

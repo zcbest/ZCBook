@@ -13,9 +13,23 @@ class MainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setUpAllChildViewController()
     }
 
+    func setUpAllChildViewController(){
+        tabBarAddChildViewController(RankingViewController(), title: "排行榜", imageName: "bio", selectedImageName: "bio_red")
+        tabBarAddChildViewController(DiscoveryViewController(), title: "发现", imageName: "timer 2", selectedImageName: "timer 2_red")
+        tabBarAddChildViewController(NewViewController(), title: "", imageName: "pencil", selectedImageName: "pencil_red")
+        tabBarAddChildViewController(CircleViewController(), title: "圈子", imageName: "users two-2", selectedImageName: "users two-2_red")
+        tabBarAddChildViewController(MoreViewController(), title: "更多", imageName: "more", selectedImageName: "more_red")
+    }
+    
+    func tabBarAddChildViewController(vc: UIViewController, title: String, imageName: String, selectedImageName: String){
+        vc.tabBarItem = UITabBarItem(title: title, image: UIImage(named: imageName), selectedImage: UIImage(named: selectedImageName))
+        let nav = MainNavigationController(rootViewController: vc)
+        self.addChildViewController(nav)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

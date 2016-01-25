@@ -12,7 +12,7 @@ class CircleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationItem.title = "圈子"
         // Do any additional setup after loading the view.
     }
 
