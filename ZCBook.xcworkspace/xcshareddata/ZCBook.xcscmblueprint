@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D32C2371395F4FCB35EC28C0889212E219FBDDD4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E18D4DA6E3337816E8C887B1443471FD6FA631A4" : 0,
+    "D32C2371395F4FCB35EC28C0889212E219FBDDD4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E335E71D-5B1A-4B1D-B179-398546B3CA19",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E18D4DA6E3337816E8C887B1443471FD6FA631A4" : "",
+    "D32C2371395F4FCB35EC28C0889212E219FBDDD4" : "ZCBook\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZCBook",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZCBook.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hnuzengchao\/ZCBook.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D32C2371395F4FCB35EC28C0889212E219FBDDD4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hnuzengchao\/NewsApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E18D4DA6E3337816E8C887B1443471FD6FA631A4"
+    }
+  ]
+}

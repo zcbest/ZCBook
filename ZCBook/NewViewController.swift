@@ -12,6 +12,7 @@ class NewViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //隐藏导航栏
         self.navigationController?.navigationBarHidden = true
         // Do any additional setup after loading the view.
     }
