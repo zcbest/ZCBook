@@ -21,6 +21,8 @@
 		F0303DDE1C56141D00434518 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DDD1C56141D00434518 /* MoreViewController.swift */; };
 		F0303DE11C5618F500434518 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DE01C5618F500434518 /* MainNavigationController.swift */; };
 		F0303DE31C561EDB00434518 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F0303DE21C561EDB00434518 /* Podfile */; };
+		F0303DE51C562DE400434518 /* NewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DE41C562DE400434518 /* NewListViewController.swift */; };
+		F0303DE71C562F0600434518 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DE61C562F0600434518 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		F0303DDD1C56141D00434518 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		F0303DE01C5618F500434518 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		F0303DE21C561EDB00434518 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F0303DE41C562DE400434518 /* NewListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewListViewController.swift; sourceTree = "<group>"; };
+		F0303DE61C562F0600434518 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				F0303DD91C5613E900434518 /* NewViewController.swift */,
+				F0303DE41C562DE400434518 /* NewListViewController.swift */,
 			);
 			name = New;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			children = (
 				F0303DAA1C5610CF00434518 /* Info.plist */,
 				F0303DE21C561EDB00434518 /* Podfile */,
+				F0303DE61C562F0600434518 /* Constant.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -411,9 +417,11 @@
 				F0303DDC1C56141200434518 /* CircleViewController.swift in Sources */,
 				F0303D9F1C5610CF00434518 /* AppDelegate.swift in Sources */,
 				F0303DE11C5618F500434518 /* MainNavigationController.swift in Sources */,
+				F0303DE51C562DE400434518 /* NewListViewController.swift in Sources */,
 				F0303DD41C56137600434518 /* MainTabBarController.swift in Sources */,
 				F0303DDA1C5613E900434518 /* NewViewController.swift in Sources */,
 				F0303DDE1C56141D00434518 /* MoreViewController.swift in Sources */,
+				F0303DE71C562F0600434518 /* Constant.swift in Sources */,
 				F0303DD61C5613AF00434518 /* RankingViewController.swift in Sources */,
 				F0303DD81C5613C100434518 /* DiscoveryViewController.swift in Sources */,
 			);

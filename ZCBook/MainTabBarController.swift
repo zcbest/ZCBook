@@ -12,7 +12,7 @@ class MainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //建立TabBarController的子视图控制器
         setUpAllChildViewController()
     }
 
