@@ -12,6 +12,7 @@ class NewViewController: UIViewController {
     //新建书评按钮
     var newButton1 = UIButton()
     var newButton2 = UIButton()
+    var imageView = UIImageView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +24,8 @@ class NewViewController: UIViewController {
         
         //新建书评按钮
         loadNewButton2()
+        //背景图片
+        loadImageView()
     }
 
     func loadNewButton1(){
@@ -46,10 +49,17 @@ class NewViewController: UIViewController {
         //UIModalTransitionStyleFlipHorizontal 水平翻转
         //UIModalTransitionStylePartialCurl 书页翻开显示下面的视图
         let newListVC = NewListViewController()
-        newListVC.modalTransitionStyle = UIModalTransitionStyle.CrossDissolve
+        newListVC.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
         self.presentViewController(newListVC, animated: true, completion: nil)
     }
     
+    func loadImageView(){
+        self.imageView.frame = CGRectMake(0, 35, SCREEN_WIDTH, SCREEN_HEIGHT - 80)
+        self.imageView.image = UIImage(named: "blank.png")
+        self.imageView.alpha = 0.5
+        self.view.addSubview(self.imageView)
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
