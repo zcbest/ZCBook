@@ -13,19 +13,20 @@ class NewViewController: UIViewController {
     var newButton1 = UIButton()
     var newButton2 = UIButton()
     var imageView = UIImageView()
+    var label = UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //隐藏导航栏
         self.navigationController?.navigationBarHidden = true
-
         //+号按钮
         loadNewButton1()
-        
         //新建书评按钮
         loadNewButton2()
         //背景图片
         loadImageView()
+        //标签
+        loadLabel()
     }
 
     func loadNewButton1(){
@@ -54,12 +55,18 @@ class NewViewController: UIViewController {
     }
     
     func loadImageView(){
-        self.imageView.frame = CGRectMake(0, 35, SCREEN_WIDTH, SCREEN_HEIGHT - 80)
+        self.imageView.frame = CGRectMake(0, 35, SCREEN_WIDTH, SCREEN_HEIGHT - 220)
         self.imageView.image = UIImage(named: "blank.png")
         self.imageView.alpha = 0.5
         self.view.addSubview(self.imageView)
     }
 
+    func loadLabel(){
+        self.label.frame = CGRectMake((SCREEN_WIDTH - 250) / 2, SCREEN_HEIGHT - 150, 250, 30)
+        self.label.text = "快来分享你的第一本书吧~~"
+        self.label.textColor = UIColor.orangeColor()
+        self.view.addSubview(self.label)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

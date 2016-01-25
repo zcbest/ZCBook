@@ -12,30 +12,34 @@ class NewListViewController: UIViewController {
 
     var closeButton = UIButton()
     var pushButton = UIButton()
-    
+    var newListView = NewListView()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        //加载发布按钮
-        loadCloseButton()
-        //加载发布按钮
-        loadPushButton()
-        
+        //加载关闭和发布按钮
+        loadButtons()
+        //加载封面，书名，作者视图
+        loadNewsListView()
     }
 
-    func loadCloseButton(){
-        self.closeButton.frame = CGRectMake(0, 20, 45, 30)
-        self.closeButton.setTitleColor(BACK_COLOR, forState: UIControlState.Normal)
+    func loadButtons(){
+        self.closeButton.frame = CGRectMake(0, 20, 45, 20)
+        self.closeButton.setTitleColor(UIColor.orangeColor(), forState: UIControlState.Normal)
         self.closeButton.setTitle("关闭", forState: UIControlState.Normal)
         self.closeButton.addTarget(self, action: "dismiss", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(self.closeButton)
-    }
-    
-    func loadPushButton(){
-        self.pushButton.frame = CGRectMake(SCREEN_WIDTH - 45, 20, 45, 30)
-        self.pushButton.setTitleColor(BACK_COLOR, forState: UIControlState.Normal)
+
+        self.pushButton.frame = CGRectMake(SCREEN_WIDTH - 45, 20, 45, 20)
+        self.pushButton.setTitleColor(UIColor.orangeColor(), forState: UIControlState.Normal)
         self.pushButton.setTitle("发布", forState: UIControlState.Normal)
         self.pushButton.addTarget(self, action: "push", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(self.pushButton)
+    }
+    
+    func loadNewsListView(){
+        self.newListView.frame = CGRectMake(0, 40, SCREEN_WIDTH, SCREEN_HEIGHT / 3)
+        self.newListView.imageButton.addTarget(self, action: "addCoverAlert", forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(self.newListView)
     }
     
     func dismiss(){
@@ -44,6 +48,19 @@ class NewListViewController: UIViewController {
     
     func push(){
         print("发布")
+    }
+    //imageButton的Action方法
+    func addCoverAlert(){
+        let coverAlertController = UIAlertController(title: "", message: "", preferredStyle: UIAlertControllerStyle.ActionSheet)
+        let cancelAction = UIAlertAction(title: "取消", style: UIAlertActionStyle.Cancel, handler: nil)
+        coverAlertController.addAction(cancelAction)
+        
+        let cameraAction = UIAlertAction(title: "拍照", style: UIAlertActionStyle.Default, handler: nil)
+        coverAlertController.addAction(cameraAction)
+        
+        let chooseAction = UIAlertAction(title: "从相册中选取", style: UIAlertActionStyle.Default, handler: nil)
+        coverAlertController.addAction(chooseAction)
+        presentViewController(coverAlertController, animated: true, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {
