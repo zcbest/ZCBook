@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0303D9F1C5610CF00434518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303D9E1C5610CF00434518 /* AppDelegate.swift */; };
+		F0303DA61C5610CF00434518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0303DA51C5610CF00434518 /* Assets.xcassets */; };
+		F0303DA91C5610CF00434518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0303DA71C5610CF00434518 /* LaunchScreen.storyboard */; };
+		F0303DB41C5610CF00434518 /* ZCBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DB31C5610CF00434518 /* ZCBookTests.swift */; };
+		F0303DBF1C5610D000434518 /* ZCBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DBE1C5610D000434518 /* ZCBookUITests.swift */; };
+		F0303DD41C56137600434518 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DD31C56137600434518 /* MainTabBarController.swift */; };
+		F0303DD61C5613AF00434518 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DD51C5613AF00434518 /* RankingViewController.swift */; };
+		F0303DD81C5613C100434518 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DD71C5613C100434518 /* DiscoveryViewController.swift */; };
+		F0303DDA1C5613E900434518 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DD91C5613E900434518 /* NewViewController.swift */; };
+		F0303DDC1C56141200434518 /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DDB1C56141200434518 /* CircleViewController.swift */; };
+		F0303DDE1C56141D00434518 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DDD1C56141D00434518 /* MoreViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0303DB01C5610CF00434518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0303D931C5610CF00434518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0303D9A1C5610CF00434518;
+			remoteInfo = ZCBook;
+		};
+		F0303DBB1C5610CF00434518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0303D931C5610CF00434518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0303D9A1C5610CF00434518;
+			remoteInfo = ZCBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0303D9B1C5610CF00434518 /* ZCBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0303D9E1C5610CF00434518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0303DA51C5610CF00434518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0303DA81C5610CF00434518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0303DAA1C5610CF00434518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0303DAF1C5610CF00434518 /* ZCBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0303DB31C5610CF00434518 /* ZCBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCBookTests.swift; sourceTree = "<group>"; };
+		F0303DB51C5610CF00434518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0303DBA1C5610CF00434518 /* ZCBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0303DBE1C5610D000434518 /* ZCBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZCBookUITests.swift; sourceTree = "<group>"; };
+		F0303DC01C5610D000434518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0303DD31C56137600434518 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		F0303DD51C5613AF00434518 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		F0303DD71C5613C100434518 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		F0303DD91C5613E900434518 /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		F0303DDB1C56141200434518 /* CircleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		F0303DDD1C56141D00434518 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0303D981C5610CF00434518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0303DAC1C5610CF00434518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0303DB71C5610CF00434518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0303D921C5610CF00434518 = {
+			isa = PBXGroup;
+			children = (
+				F0303D9D1C5610CF00434518 /* ZCBook */,
+				F0303DB21C5610CF00434518 /* ZCBookTests */,
+				F0303DBD1C5610D000434518 /* ZCBookUITests */,
+				F0303D9C1C5610CF00434518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0303D9C1C5610CF00434518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0303D9B1C5610CF00434518 /* ZCBook.app */,
+				F0303DAF1C5610CF00434518 /* ZCBookTests.xctest */,
+				F0303DBA1C5610CF00434518 /* ZCBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0303D9D1C5610CF00434518 /* ZCBook */ = {
+			isa = PBXGroup;
+			children = (
+				F0303DCC1C56124100434518 /* RankingList */,
+				F0303DCE1C56128A00434518 /* Discovery */,
+				F0303DCF1C56129400434518 /* New */,
+				F0303DD01C5612B300434518 /* Circle */,
+				F0303DD11C5612D000434518 /* More */,
+				F0303DD21C56131300434518 /* Main(公共的) */,
+				F0303DDF1C56143C00434518 /* Supporting Files */,
+				F0303D9E1C5610CF00434518 /* AppDelegate.swift */,
+				F0303DA71C5610CF00434518 /* LaunchScreen.storyboard */,
+			);
+			path = ZCBook;
+			sourceTree = "<group>";
+		};
+		F0303DB21C5610CF00434518 /* ZCBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0303DB31C5610CF00434518 /* ZCBookTests.swift */,
+				F0303DB51C5610CF00434518 /* Info.plist */,
+			);
+			path = ZCBookTests;
+			sourceTree = "<group>";
+		};
+		F0303DBD1C5610D000434518 /* ZCBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0303DBE1C5610D000434518 /* ZCBookUITests.swift */,
+				F0303DC01C5610D000434518 /* Info.plist */,
+			);
+			path = ZCBookUITests;
+			sourceTree = "<group>";
+		};
+		F0303DCC1C56124100434518 /* RankingList */ = {
+			isa = PBXGroup;
+			children = (
+				F0303DD51C5613AF00434518 /* RankingViewController.swift */,
+			);
+			name = RankingList;
+			sourceTree = "<group>";
+		};
+		F0303DCE1C56128A00434518 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				F0303DD71C5613C100434518 /* DiscoveryViewController.swift */,
+			);
+			name = Discovery;
+			sourceTree = "<group>";
+		};
+		F0303DCF1C56129400434518 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				F0303DD91C5613E900434518 /* NewViewController.swift */,
+			);
+			name = New;
+			sourceTree = "<group>";
+		};
+		F0303DD01C5612B300434518 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				F0303DDB1C56141200434518 /* CircleViewController.swift */,
+			);
+			name = Circle;
+			sourceTree = "<group>";
+		};
+		F0303DD11C5612D000434518 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				F0303DDD1C56141D00434518 /* MoreViewController.swift */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		F0303DD21C56131300434518 /* Main(公共的) */ = {
+			isa = PBXGroup;
+			children = (
+				F0303DD31C56137600434518 /* MainTabBarController.swift */,
+			);
+			name = "Main(公共的)";
+			sourceTree = "<group>";
+		};
+		F0303DDF1C56143C00434518 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0303DA51C5610CF00434518 /* Assets.xcassets */,
+				F0303DAA1C5610CF00434518 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0303D9A1C5610CF00434518 /* ZCBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0303DC31C5610D000434518 /* Build configuration list for PBXNativeTarget "ZCBook" */;
+			buildPhases = (
+				F0303D971C5610CF00434518 /* Sources */,
+				F0303D981C5610CF00434518 /* Frameworks */,
+				F0303D991C5610CF00434518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCBook;
+			productName = ZCBook;
+			productReference = F0303D9B1C5610CF00434518 /* ZCBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0303DAE1C5610CF00434518 /* ZCBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0303DC61C5610D000434518 /* Build configuration list for PBXNativeTarget "ZCBookTests" */;
+			buildPhases = (
+				F0303DAB1C5610CF00434518 /* Sources */,
+				F0303DAC1C5610CF00434518 /* Frameworks */,
+				F0303DAD1C5610CF00434518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0303DB11C5610CF00434518 /* PBXTargetDependency */,
+			);
+			name = ZCBookTests;
+			productName = ZCBookTests;
+			productReference = F0303DAF1C5610CF00434518 /* ZCBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0303DB91C5610CF00434518 /* ZCBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0303DC91C5610D000434518 /* Build configuration list for PBXNativeTarget "ZCBookUITests" */;
+			buildPhases = (
+				F0303DB61C5610CF00434518 /* Sources */,
+				F0303DB71C5610CF00434518 /* Frameworks */,
+				F0303DB81C5610CF00434518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0303DBC1C5610CF00434518 /* PBXTargetDependency */,
+			);
+			name = ZCBookUITests;
+			productName = ZCBookUITests;
+			productReference = F0303DBA1C5610CF00434518 /* ZCBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0303D931C5610CF00434518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zengchao;
+				TargetAttributes = {
+					F0303D9A1C5610CF00434518 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = N8WR8G89H8;
+					};
+					F0303DAE1C5610CF00434518 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = N8WR8G89H8;
+						TestTargetID = F0303D9A1C5610CF00434518;
+					};
+					F0303DB91C5610CF00434518 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = N8WR8G89H8;
+						TestTargetID = F0303D9A1C5610CF00434518;
+					};
+				};
+			};
+			buildConfigurationList = F0303D961C5610CF00434518 /* Build configuration list for PBXProject "ZCBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0303D921C5610CF00434518;
+			productRefGroup = F0303D9C1C5610CF00434518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0303D9A1C5610CF00434518 /* ZCBook */,
+				F0303DAE1C5610CF00434518 /* ZCBookTests */,
+				F0303DB91C5610CF00434518 /* ZCBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0303D991C5610CF00434518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0303DA91C5610CF00434518 /* LaunchScreen.storyboard in Resources */,
+				F0303DA61C5610CF00434518 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0303DAD1C5610CF00434518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0303DB81C5610CF00434518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0303D971C5610CF00434518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0303DDC1C56141200434518 /* CircleViewController.swift in Sources */,
+				F0303D9F1C5610CF00434518 /* AppDelegate.swift in Sources */,
+				F0303DD41C56137600434518 /* MainTabBarController.swift in Sources */,
+				F0303DDA1C5613E900434518 /* NewViewController.swift in Sources */,
+				F0303DDE1C56141D00434518 /* MoreViewController.swift in Sources */,
+				F0303DD61C5613AF00434518 /* RankingViewController.swift in Sources */,
+				F0303DD81C5613C100434518 /* DiscoveryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0303DAB1C5610CF00434518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0303DB41C5610CF00434518 /* ZCBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0303DB61C5610CF00434518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0303DBF1C5610D000434518 /* ZCBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0303DB11C5610CF00434518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0303D9A1C5610CF00434518 /* ZCBook */;
+			targetProxy = F0303DB01C5610CF00434518 /* PBXContainerItemProxy */;
+		};
+		F0303DBC1C5610CF00434518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0303D9A1C5610CF00434518 /* ZCBook */;
+			targetProxy = F0303DBB1C5610CF00434518 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0303DA71C5610CF00434518 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0303DA81C5610CF00434518 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0303DC11C5610D000434518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0303DC21C5610D000434518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0303DC41C5610D000434518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZCBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zengchao.ZCBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F0303DC51C5610D000434518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZCBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zengchao.ZCBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F0303DC71C5610D000434518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZCBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zengchao.ZCBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCBook.app/ZCBook";
+			};
+			name = Debug;
+		};
+		F0303DC81C5610D000434518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZCBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zengchao.ZCBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCBook.app/ZCBook";
+			};
+			name = Release;
+		};
+		F0303DCA1C5610D000434518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZCBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zengchao.ZCBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZCBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F0303DCB1C5610D000434518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZCBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zengchao.ZCBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZCBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0303D961C5610CF00434518 /* Build configuration list for PBXProject "ZCBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0303DC11C5610D000434518 /* Debug */,
+				F0303DC21C5610D000434518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0303DC31C5610D000434518 /* Build configuration list for PBXNativeTarget "ZCBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0303DC41C5610D000434518 /* Debug */,
+				F0303DC51C5610D000434518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0303DC61C5610D000434518 /* Build configuration list for PBXNativeTarget "ZCBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0303DC71C5610D000434518 /* Debug */,
+				F0303DC81C5610D000434518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0303DC91C5610D000434518 /* Build configuration list for PBXNativeTarget "ZCBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0303DCA1C5610D000434518 /* Debug */,
+				F0303DCB1C5610D000434518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0303D931C5610CF00434518 /* Project object */;
+}
