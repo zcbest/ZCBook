@@ -37,7 +37,7 @@ class NewViewController: UIViewController {
     }
     
     func loadNewButton2(){
-        self.newButton2.frame = CGRectMake(40, 20, 80, 30)
+        self.newButton2.frame = CGRectMake(30, 20, 80, 30)
         self.newButton2.titleLabel?.font = UIFont.systemFontOfSize(15)
         self.newButton2.setTitle("新建书评", forState: UIControlState.Normal)
         self.newButton2.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
