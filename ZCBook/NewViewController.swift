@@ -17,45 +17,32 @@ class NewViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //隐藏导航栏
-        self.navigationController?.navigationBarHidden = true
-        //+号按钮
-        loadNewButton1()
-        //新建书评按钮
-        loadNewButton2()
-        //背景图片
+        //设置导航栏
+        setUpNav()
+        //加载背景图片
         loadImageView()
         //标签
         loadLabel()
     }
-
-    func loadNewButton1(){
-        self.newButton1.frame = CGRectMake(0,20,30,30)
-        self.newButton1.setImage(UIImage(named: "plus circle"), forState: UIControlState.Normal)
-        self.newButton1.addTarget(self, action: "push", forControlEvents: UIControlEvents.TouchUpInside)
-        self.view.addSubview(self.newButton1)
-    }
     
-    func loadNewButton2(){
-        self.newButton2.frame = CGRectMake(30, 20, 80, 30)
-        self.newButton2.titleLabel?.font = UIFont.systemFontOfSize(15)
-        self.newButton2.setTitle("新建书评", forState: UIControlState.Normal)
-        self.newButton2.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
-        self.newButton2.addTarget(self, action: "push", forControlEvents: UIControlEvents.TouchUpInside)
-        self.view.addSubview(self.newButton2)
+    func setUpNav(){
+        let button1 = UIBarButtonItem(image: UIImage(named: "plus circle"), style: UIBarButtonItemStyle.Plain, target: self, action: "push")
+        let button2 = UIBarButtonItem(title: "新建书评", style: UIBarButtonItemStyle.Plain, target: self, action: "push")
+        self.navigationItem.leftBarButtonItems = [button1, button2]
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: nil, action: nil)  //返回按钮文字空
+
     }
-    //按钮的action
+    //action
     func push(){
         //ViewController转场方式 UIModalTransitionStyleCoverVertical 默认值，从下向上覆盖
         //UIModalTransitionStyleFlipHorizontal 水平翻转
         //UIModalTransitionStylePartialCurl 书页翻开显示下面的视图
         let newListVC = NewListViewController()
-        newListVC.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
-        self.presentViewController(newListVC, animated: true, completion: nil)
+        self.navigationController?.pushViewController(newListVC, animated: true)
     }
     
     func loadImageView(){
-        self.imageView.frame = CGRectMake(0, 35, SCREEN_WIDTH, SCREEN_HEIGHT - 220)
+        self.imageView.frame = CGRectMake(0, 64, SCREEN_WIDTH, SCREEN_HEIGHT - 220)
         self.imageView.image = UIImage(named: "blank.png")
         self.imageView.alpha = 0.5
         self.view.addSubview(self.imageView)
@@ -72,15 +59,5 @@ class NewViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

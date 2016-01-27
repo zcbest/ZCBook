@@ -24,6 +24,9 @@
 		F0303DE31C561EDB00434518 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F0303DE21C561EDB00434518 /* Podfile */; };
 		F0303DE51C562DE400434518 /* NewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DE41C562DE400434518 /* NewListViewController.swift */; };
 		F0303DE71C562F0600434518 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303DE61C562F0600434518 /* Constant.swift */; };
+		F0B8B0BA1C585D5E0074E139 /* NewList_TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B0B91C585D5E0074E139 /* NewList_TitleViewController.swift */; };
+		F0B8B0BC1C585D830074E139 /* NewList_CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B0BB1C585D830074E139 /* NewList_CategoryViewController.swift */; };
+		F0B8B0BE1C585D970074E139 /* NewList_DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B0BD1C585D970074E139 /* NewList_DescriptionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		F0303DE21C561EDB00434518 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F0303DE41C562DE400434518 /* NewListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewListViewController.swift; sourceTree = "<group>"; };
 		F0303DE61C562F0600434518 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F0B8B0B91C585D5E0074E139 /* NewList_TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewList_TitleViewController.swift; sourceTree = "<group>"; };
+		F0B8B0BB1C585D830074E139 /* NewList_CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewList_CategoryViewController.swift; sourceTree = "<group>"; };
+		F0B8B0BD1C585D970074E139 /* NewList_DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewList_DescriptionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,9 @@
 			children = (
 				F0303DD91C5613E900434518 /* NewViewController.swift */,
 				F0303DE41C562DE400434518 /* NewListViewController.swift */,
+				F0B8B0B91C585D5E0074E139 /* NewList_TitleViewController.swift */,
+				F0B8B0BB1C585D830074E139 /* NewList_CategoryViewController.swift */,
+				F0B8B0BD1C585D970074E139 /* NewList_DescriptionViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -445,12 +454,15 @@
 				F0303D9F1C5610CF00434518 /* AppDelegate.swift in Sources */,
 				F0303DE11C5618F500434518 /* MainNavigationController.swift in Sources */,
 				F0303DE51C562DE400434518 /* NewListViewController.swift in Sources */,
+				F0B8B0BE1C585D970074E139 /* NewList_DescriptionViewController.swift in Sources */,
 				F0303DD41C56137600434518 /* MainTabBarController.swift in Sources */,
 				F0303DDA1C5613E900434518 /* NewViewController.swift in Sources */,
 				F0303DDE1C56141D00434518 /* MoreViewController.swift in Sources */,
 				F0303DE71C562F0600434518 /* Constant.swift in Sources */,
 				F0303DD61C5613AF00434518 /* RankingViewController.swift in Sources */,
 				F0303DD81C5613C100434518 /* DiscoveryViewController.swift in Sources */,
+				F0B8B0BA1C585D5E0074E139 /* NewList_TitleViewController.swift in Sources */,
+				F0B8B0BC1C585D830074E139 /* NewList_CategoryViewController.swift in Sources */,
 				F01AFE001C5670F5004F2A7A /* NewListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

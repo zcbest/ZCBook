@@ -13,4 +13,4 @@ let SCREEN_WIDTH = UIScreen.mainScreen().bounds.width
 
 let SCREEN_HEIGHT = UIScreen.mainScreen().bounds.height
 
-let BACK_COLOR = UIColor(red: 23/255, green: 233/255, blue: 233/255, alpha: 0.5)
+let BACK_COLOR = UIColor(red: 135/255, green: 206/255, blue: 235/255, alpha: 0.3)

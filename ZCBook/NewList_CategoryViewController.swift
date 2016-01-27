@@ -1,22 +1,19 @@
 //
-//  MainNavigationController.swift
+//  NewList_CategoryViewController.swift
 //  ZCBook
 //
-//  Created by 曾超 on 16/1/25.
+//  Created by 曾超 on 16/1/27.
 //  Copyright © 2016年 zengchao. All rights reserved.
 //
 
 import UIKit
 
-class MainNavigationController: UINavigationController {
+class NewList_CategoryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //导航栏的基本设置
-        UINavigationBar.appearance().barTintColor = BACK_COLOR
-        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
-        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
 
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

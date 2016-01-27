@@ -9,48 +9,52 @@
 import UIKit
 
 class NewListViewController: UIViewController {
-
-    var closeButton = UIButton()
+    
     var pushButton = UIButton()
     var newListView = NewListView()
-    
     var picker = UIImagePickerController()
-
+    var tableView = UITableView()
+    var arrayList:[String] = ["标题","评分","分类","书评"]
+    var Book_Title = ""
+    var showScore = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        //加载关闭和发布按钮
-        loadButtons()
+        
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: nil, action: nil)  //返回按钮文字空
+        //加载发布按钮
+        loadPushButtons()
         //加载封面，书名，作者视图
         loadNewsListView()
+        //加载tableView
+        loadTableView()
     }
 
-    func loadButtons(){
-        self.closeButton.frame = CGRectMake(0, 20, 45, 20)
-        self.closeButton.setTitleColor(UIColor.orangeColor(), forState: UIControlState.Normal)
-        self.closeButton.setTitle("关闭", forState: UIControlState.Normal)
-        self.closeButton.addTarget(self, action: "dismiss", forControlEvents: UIControlEvents.TouchUpInside)
-        self.view.addSubview(self.closeButton)
-
-        self.pushButton.frame = CGRectMake(SCREEN_WIDTH - 45, 20, 45, 20)
-        self.pushButton.setTitleColor(UIColor.orangeColor(), forState: UIControlState.Normal)
-        self.pushButton.setTitle("发布", forState: UIControlState.Normal)
-        self.pushButton.addTarget(self, action: "push", forControlEvents: UIControlEvents.TouchUpInside)
-        self.view.addSubview(self.pushButton)
+    func loadPushButtons(){
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "发布", style: UIBarButtonItemStyle.Plain, target: self, action: "push")
     }
     
     func loadNewsListView(){
-        self.newListView.frame = CGRectMake(0, 40, SCREEN_WIDTH, SCREEN_HEIGHT / 3)
+        self.newListView.frame = CGRectMake(0, 64, SCREEN_WIDTH, SCREEN_HEIGHT / 3)
         self.newListView.imageButton.addTarget(self, action: "addCoverAlert", forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(self.newListView)
     }
     
-    func dismiss(){
-        self.dismissViewControllerAnimated(true, completion: nil)
+    func loadTableView(){
+        self.tableView = UITableView(frame: CGRectMake(0, 40 + SCREEN_HEIGHT / 3 , SCREEN_WIDTH, 2 * SCREEN_HEIGHT / 3 - 40), style: UITableViewStyle.Grouped)
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        //清除tableView多余的cell的分割线
+        self.tableView.tableFooterView = UIView()
+        self.view.addSubview(self.tableView)
     }
     
     func push(){
+        self.newListView.bookName.resignFirstResponder()
+        self.newListView.bookAuthor.resignFirstResponder()
         print("发布")
     }
+    
     //imageButton的Action方法
     func addCoverAlert(){
         //设置picker的代理
@@ -95,17 +99,76 @@ class NewListViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //Swift内存管理是ARC方式，没有发生内存泄露会执行
+    deinit{
+        print("NewListViewController released")
     }
-    */
+}
 
+extension NewListViewController: UITableViewDelegate, UITableViewDataSource{
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return arrayList.count
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: "Cell")
+        cell.textLabel?.text = arrayList[indexPath.row]
+        if indexPath.row != 1{
+            cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
+        }
+
+        let index = indexPath.row
+        switch index{
+        case 0:
+            cell.detailTextLabel?.text = self.Book_Title
+        case 1:
+    
+            break
+        case 2:
+            break
+        default:
+            break
+        }
+        return cell
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let index = indexPath.row
+        switch index{
+        case 0:
+            let vc = NewList_TitleViewController()
+            //Swift闭包不会造成内存泄露
+            vc.callback = {(title: String) -> Void in
+                self.Book_Title = title
+                self.tableView.reloadData()
+            }
+            self.navigationController?.pushViewController(vc, animated: false)
+        case 1:
+            //点击cell插入一行
+            let path = [NSIndexPath(forRow: 2, inSection: 0)]
+            self.tableView.beginUpdates()
+            if self.showScore{
+            self.arrayList.insert("  评分等级", atIndex: 2)
+            self.tableView.insertRowsAtIndexPaths(path, withRowAnimation: UITableViewRowAnimation.Left)
+                self.showScore = false
+            }else{
+                self.arrayList.removeAtIndex(2)
+                self.tableView.deleteRowsAtIndexPaths(path, withRowAnimation: UITableViewRowAnimation.Right)
+                self.showScore = true
+            }
+            self.tableView.endUpdates()
+        case 2:
+            self.navigationController?.pushViewController(NewList_CategoryViewController(), animated: true)
+        default:
+            self.navigationController?.pushViewController(NewList_DescriptionViewController(), animated: true)
+
+        }
+        
+    }
 }
 
 extension NewListViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate{

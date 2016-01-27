@@ -52,7 +52,7 @@ class NewListView: UIView {
         self.bookName.clearButtonMode = UITextFieldViewMode.Always
         self.addSubview(self.bookName)
         
-        self.bookAuthor.frame = CGRectMake(SCREEN_WIDTH / 3 + 10, SCREEN_HEIGHT / 4, SCREEN_WIDTH * 2 / 3 - 10 , 20)
+        self.bookAuthor.frame = CGRectMake(SCREEN_WIDTH / 3 + 10, SCREEN_HEIGHT / 4 - 3, SCREEN_WIDTH * 2 / 3 - 10 , 20)
         self.bookAuthor.placeholder = "作者"
         //文本框的样式 下面为圆角矩形边框
         self.bookAuthor.borderStyle = UITextBorderStyle.RoundedRect
