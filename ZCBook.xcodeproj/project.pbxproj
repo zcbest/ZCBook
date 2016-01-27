@@ -27,6 +27,7 @@
 		F0B8B0BA1C585D5E0074E139 /* NewList_TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B0B91C585D5E0074E139 /* NewList_TitleViewController.swift */; };
 		F0B8B0BC1C585D830074E139 /* NewList_CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B0BB1C585D830074E139 /* NewList_CategoryViewController.swift */; };
 		F0B8B0BE1C585D970074E139 /* NewList_DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B0BD1C585D970074E139 /* NewList_DescriptionViewController.swift */; };
+		F0B8B0C01C58A8E10074E139 /* LeadPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B0BF1C58A8E10074E139 /* LeadPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		F0B8B0B91C585D5E0074E139 /* NewList_TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewList_TitleViewController.swift; sourceTree = "<group>"; };
 		F0B8B0BB1C585D830074E139 /* NewList_CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewList_CategoryViewController.swift; sourceTree = "<group>"; };
 		F0B8B0BD1C585D970074E139 /* NewList_DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewList_DescriptionViewController.swift; sourceTree = "<group>"; };
+		F0B8B0BF1C58A8E10074E139 /* LeadPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +253,7 @@
 			children = (
 				F0303DD31C56137600434518 /* MainTabBarController.swift */,
 				F0303DE01C5618F500434518 /* MainNavigationController.swift */,
+				F0B8B0BF1C58A8E10074E139 /* LeadPageViewController.swift */,
 			);
 			name = "Main(公共的)";
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				F0303DDA1C5613E900434518 /* NewViewController.swift in Sources */,
 				F0303DDE1C56141D00434518 /* MoreViewController.swift in Sources */,
 				F0303DE71C562F0600434518 /* Constant.swift in Sources */,
+				F0B8B0C01C58A8E10074E139 /* LeadPageViewController.swift in Sources */,
 				F0303DD61C5613AF00434518 /* RankingViewController.swift in Sources */,
 				F0303DD81C5613C100434518 /* DiscoveryViewController.swift in Sources */,
 				F0B8B0BA1C585D5E0074E139 /* NewList_TitleViewController.swift in Sources */,

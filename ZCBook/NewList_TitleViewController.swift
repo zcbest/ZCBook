@@ -8,13 +8,13 @@
 
 import UIKit
 
-typealias NEWList_TitleViewController = (title: String) -> Void
+typealias NewList_TitleViewControllerClosure = (title: String) -> Void
 
 class NewList_TitleViewController: UIViewController {
 
     var textField = UITextField()
     var button = UIButton()
-    var callback: NEWList_TitleViewController?
+    var callback: NewList_TitleViewControllerClosure?
     
     override func viewDidLoad() {
         super.viewDidLoad()

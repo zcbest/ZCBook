@@ -16,6 +16,7 @@ class NewListViewController: UIViewController {
     var tableView = UITableView()
     var arrayList:[String] = ["标题","评分","分类","书评"]
     var Book_Title = ""
+    var Book_Description = ""
     var showScore = true
     
     override func viewDidLoad() {
@@ -50,8 +51,8 @@ class NewListViewController: UIViewController {
     }
     
     func push(){
-        self.newListView.bookName.resignFirstResponder()
-        self.newListView.bookAuthor.resignFirstResponder()
+        self.newListView.Book_Name.resignFirstResponder()
+        self.newListView.Book_Author.resignFirstResponder()
         print("发布")
     }
     
@@ -130,6 +131,14 @@ extension NewListViewController: UITableViewDelegate, UITableViewDataSource{
             break
         case 2:
             break
+        case 3:
+            break
+        case 4:
+            cell.accessoryType = UITableViewCellAccessoryType.None
+            let textView = UITextView(frame: CGRectMake(0, 0, SCREEN_WIDTH, 88))
+            textView.text = self.Book_Description
+            textView.editable = false
+            cell.contentView.addSubview(textView)
         default:
             break
         }
@@ -137,7 +146,12 @@ extension NewListViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let index = indexPath.row
+        var index = indexPath.row
+        
+        if self.showScore == false && index > 1{
+            index = index - 1
+        }
+        
         switch index{
         case 0:
             let vc = NewList_TitleViewController()
@@ -163,9 +177,19 @@ extension NewListViewController: UITableViewDelegate, UITableViewDataSource{
             self.tableView.endUpdates()
         case 2:
             self.navigationController?.pushViewController(NewList_CategoryViewController(), animated: true)
+        case 3:
+            let vc = NewList_DescriptionViewController()
+            vc.callback = {(description: String) -> Void in
+                self.Book_Description = description
+                //如果书评description不为空，则增加一个cell展示
+                if self.Book_Description != ""{
+                self.arrayList.append("")
+                self.tableView.reloadData()
+                }
+            }
+            self.navigationController?.pushViewController(vc, animated: true)
         default:
-            self.navigationController?.pushViewController(NewList_DescriptionViewController(), animated: true)
-
+            break
         }
         
     }

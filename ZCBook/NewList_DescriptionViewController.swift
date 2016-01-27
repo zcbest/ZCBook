@@ -8,14 +8,21 @@
 
 import UIKit
 
+typealias NewList_DescriptionViewControllerClosure = (description: String) -> Void
+
 class NewList_DescriptionViewController: UIViewController {
 
     var textView = UITextView()
     
+    var callback: NewList_DescriptionViewControllerClosure?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //加载文本框
         loadTextView()
+        //设置确定按钮
+        loadSureButton()
     }
 
     func loadTextView(){
@@ -26,7 +33,17 @@ class NewList_DescriptionViewController: UIViewController {
         self.textView.selectable = true
         //旧内容编辑时全选
         self.textView.clearsOnInsertion = true
+        
         self.view.addSubview(self.textView)
+    }
+    
+    func loadSureButton(){
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "确定", style: UIBarButtonItemStyle.Plain, target: self, action: "sure")
+    }
+    
+    func sure(){
+        self.callback!(description: self.textView.text)
+        self.navigationController?.popViewControllerAnimated(true)
     }
     
     override func didReceiveMemoryWarning() {
@@ -34,15 +51,4 @@ class NewList_DescriptionViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

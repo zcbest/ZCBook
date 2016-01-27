@@ -18,8 +18,8 @@ class NewListView: UIView {
     }
     */
     var imageButton = UIButton()
-    var bookName = UITextField()
-    var bookAuthor = UITextField()
+    var Book_Name = UITextField()
+    var Book_Author = UITextField()
     
     override init(frame: CGRect) {
         super.init(frame:frame)
@@ -40,29 +40,29 @@ class NewListView: UIView {
     }
     
     func loadNameAndAnthor(){
-        self.bookName.frame = CGRectMake(SCREEN_WIDTH / 3 + 10, SCREEN_HEIGHT / 7.5, SCREEN_WIDTH * 2 / 3 - 10 , 20)
-        self.bookName.placeholder = "书名"
+        self.Book_Name.frame = CGRectMake(SCREEN_WIDTH / 3 + 10, SCREEN_HEIGHT / 7.5, SCREEN_WIDTH * 2 / 3 - 10 , 20)
+        self.Book_Name.placeholder = "书名"
         //文本框的样式 下面为圆角矩形边框
-        self.bookName.borderStyle = UITextBorderStyle.RoundedRect
+        self.Book_Name.borderStyle = UITextBorderStyle.RoundedRect
         //设置return键的样式
-        self.bookName.returnKeyType = UIReturnKeyType.Done
+        self.Book_Name.returnKeyType = UIReturnKeyType.Done
         //文字大小超过文本框长度自动缩小字号
-        self.bookName.adjustsFontSizeToFitWidth = true
+        self.Book_Name.adjustsFontSizeToFitWidth = true
         //输入框内右侧小叉，清除内容
-        self.bookName.clearButtonMode = UITextFieldViewMode.Always
-        self.addSubview(self.bookName)
+        self.Book_Name.clearButtonMode = UITextFieldViewMode.Always
+        self.addSubview(self.Book_Name)
         
-        self.bookAuthor.frame = CGRectMake(SCREEN_WIDTH / 3 + 10, SCREEN_HEIGHT / 4 - 3, SCREEN_WIDTH * 2 / 3 - 10 , 20)
-        self.bookAuthor.placeholder = "作者"
+        self.Book_Author.frame = CGRectMake(SCREEN_WIDTH / 3 + 10, SCREEN_HEIGHT / 4 - 3, SCREEN_WIDTH * 2 / 3 - 10 , 20)
+        self.Book_Author.placeholder = "作者"
         //文本框的样式 下面为圆角矩形边框
-        self.bookAuthor.borderStyle = UITextBorderStyle.RoundedRect
+        self.Book_Author.borderStyle = UITextBorderStyle.RoundedRect
         //设置return键的样式
-        self.bookAuthor.returnKeyType = UIReturnKeyType.Done
+        self.Book_Author.returnKeyType = UIReturnKeyType.Done
         //文字大小超过文本框长度自动缩小字号
-        self.bookAuthor.adjustsFontSizeToFitWidth = true
+        self.Book_Author.adjustsFontSizeToFitWidth = true
         //输入框内右侧小叉，清除内容
-        self.bookAuthor.clearButtonMode = UITextFieldViewMode.Always
-        self.addSubview(self.bookAuthor)
+        self.Book_Author.clearButtonMode = UITextFieldViewMode.Always
+        self.addSubview(self.Book_Author)
     }
     
 }
