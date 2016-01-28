@@ -8,6 +8,7 @@
 
 import UIKit
 import SnapKit
+import SVProgressHUD
 
 class LoginViewController: UIViewController {
 
@@ -58,6 +59,7 @@ class LoginViewController: UIViewController {
     
     func loadUserName(){
         self.username.placeholder = "用户名/邮箱"
+        self.username.clearButtonMode = .Always
         self.username.delegate = self
         self.formView.addSubview(self.username)
         self.username.snp_makeConstraints { (make) -> Void in
@@ -70,6 +72,9 @@ class LoginViewController: UIViewController {
     
     func loadPassWord(){
         self.password.placeholder = "密码"
+        self.password.clearButtonMode = .Always
+        //密文
+        self.password.secureTextEntry = true
         self.password.delegate = self
         self.formView.addSubview(self.password)
 
@@ -123,7 +128,21 @@ class LoginViewController: UIViewController {
     }
 
     func login(){
-        print("login")
+        AVUser.logInWithUsernameInBackground(self.username.text, password: self.password.text) { (user, error) -> Void in
+            if error == nil{
+                self.presentViewController(MainTabBarController(), animated: true, completion: nil)
+            }else{
+                if error.code == 210{
+                    SVProgressHUD.showErrorWithStatus("用户名或者密码错误")
+                }else if error.code == 211{
+                    SVProgressHUD.showErrorWithStatus("不存在该用户")
+                }else if error.code == 216{
+                    SVProgressHUD.showErrorWithStatus("未验证邮箱")
+                }else{
+                    SVProgressHUD.showErrorWithStatus("登录失败")
+                }
+            }
+        }
     }
     
     func register(){
@@ -147,6 +166,7 @@ extension LoginViewController: UITextFieldDelegate{
     //当对TextField进行编辑的时候进行的回调
     func textFieldDidBeginEditing(textField: UITextField) {
         UIView.animateWithDuration(0.5) { () -> Void in
+            //更新约束
             self.topConstraint?.updateOffset(-50)
             self.view.layoutIfNeeded()
         }

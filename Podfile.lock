@@ -5,17 +5,20 @@ PODS:
   - AVOSCloudIM (3.2.2):
     - AVOSCloud
   - SnapKit (0.19.1)
+  - SVProgressHUD (1.1.3)
 
 DEPENDENCIES:
   - AVOSCloud
   - AVOSCloudCrashReporting
   - AVOSCloudIM
   - SnapKit
+  - SVProgressHUD
 
 SPEC CHECKSUMS:
   AVOSCloud: 73eb3e7b772b84998df5fb104813c17b39b25cf3
   AVOSCloudCrashReporting: 07e52633ad0dc2a84c310e6a5ae268f42eea5959
   AVOSCloudIM: 3cb536dae7cecb2ae6eab5da3ef2663c6561ab39
   SnapKit: eff58d6e3451bf2f482db2eccf86aecf371dc62d
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
 
 COCOAPODS: 0.39.0

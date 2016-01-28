@@ -8,6 +8,7 @@
 
 import UIKit
 import SnapKit
+import SVProgressHUD
 
 class RegisterViewController: UIViewController {
 
@@ -70,6 +71,7 @@ class RegisterViewController: UIViewController {
     
     func loadMail(){
         self.mail.placeholder = "邮箱"
+        self.mail.clearButtonMode = .Always
         self.mail.delegate = self
         self.formView.addSubview(self.mail)
         self.mail.snp_makeConstraints { (make) -> Void in
@@ -81,7 +83,8 @@ class RegisterViewController: UIViewController {
     }
     
     func loadSmallName(){
-        self.smallName.placeholder = "昵称"
+        self.smallName.placeholder = "用户名"
+        self.smallName.clearButtonMode = .Always
         self.smallName.delegate = self
         self.formView.addSubview(self.smallName)
         
@@ -95,6 +98,8 @@ class RegisterViewController: UIViewController {
     
     func loadPassWord(){
         self.password.placeholder = "密码"
+        self.password.clearButtonMode = .Always
+        self.password.secureTextEntry = true
         self.password.delegate = self
         self.formView.addSubview(self.password)
         
@@ -110,7 +115,7 @@ class RegisterViewController: UIViewController {
         self.registerButton.backgroundColor = UIColor.orangeColor()
         self.registerButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         self.registerButton.setTitle("注册新账号", forState: UIControlState.Normal)
-        self.registerButton.addTarget(self, action: "login", forControlEvents: UIControlEvents.TouchUpInside)
+        self.registerButton.addTarget(self, action: "register", forControlEvents: UIControlEvents.TouchUpInside)
         self.formView.addSubview(self.registerButton)
         self.registerButton.snp_makeConstraints { (make) -> Void in
             make.left.equalTo(15)
@@ -120,6 +125,29 @@ class RegisterViewController: UIViewController {
         }
     }
 
+    func register(){
+        let user = AVUser()
+        user.email = self.mail.text
+        user.username = self.smallName.text
+        user.password = self.password.text
+
+        user.signUpInBackgroundWithBlock { (success, error) -> Void in
+            if success{
+                SVProgressHUD.showSuccessWithStatus("注册成功")
+                self.dismissViewControllerAnimated(true, completion: nil)
+            }else{
+                if error.code == 125{
+                   SVProgressHUD.showErrorWithStatus("电子邮箱地址无效")
+                }else if error.code == 203{
+                    SVProgressHUD.showErrorWithStatus("该邮箱已注册")
+                }else if error.code == 202{
+                    SVProgressHUD.showErrorWithStatus("用户名已注册")
+                }else{
+                   SVProgressHUD.showErrorWithStatus("注册失败")                }
+            }
+        }
+    }
+    
     func back(){
         dismissViewControllerAnimated(true, completion: nil)
     }

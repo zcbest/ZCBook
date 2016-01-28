@@ -15,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        AVOSCloud.setApplicationId("NMAIdK3dDxsu2tvsvPU5oO1T-gzGzoHsz", clientKey: "2dxwYxYzkAy7qFGu8rI4lTWd")
+//        AVUser.logOut()
         setKeyWindow()
 
         return true
@@ -28,8 +30,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func showLeadPage() -> UIViewController{
-//        return MainTabBarController()
-        return LoginViewController()
+        if AVUser.currentUser() == nil{
+            return LoginViewController()
+        }
+        return MainTabBarController()
     }
     
     func applicationWillResignActive(application: UIApplication) {

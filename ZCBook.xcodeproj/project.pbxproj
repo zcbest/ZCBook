@@ -75,6 +75,7 @@
 		F0303DE21C561EDB00434518 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F0303DE41C562DE400434518 /* NewListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewListViewController.swift; sourceTree = "<group>"; };
 		F0303DE61C562F0600434518 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F07702821C5A671F008363A7 /* ZCBook_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCBook_Header.h; sourceTree = "<group>"; };
 		F0B8B0B91C585D5E0074E139 /* NewList_TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewList_TitleViewController.swift; sourceTree = "<group>"; };
 		F0B8B0BB1C585D830074E139 /* NewList_CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewList_CategoryViewController.swift; sourceTree = "<group>"; };
 		F0B8B0BD1C585D970074E139 /* NewList_DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewList_DescriptionViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +179,7 @@
 		F0303D9D1C5610CF00434518 /* ZCBook */ = {
 			isa = PBXGroup;
 			children = (
+				F07702821C5A671F008363A7 /* ZCBook_Header.h */,
 				F0CB7A151C5A21B6008ABDC5 /* Login/Register */,
 				F0303DCC1C56124100434518 /* RankingList */,
 				F0303DCE1C56128A00434518 /* Discovery */,
@@ -620,6 +622,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zengchao.ZCBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ZCBook/ZCBook_Header.h;
 			};
 			name = Debug;
 		};
@@ -632,6 +635,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zengchao.ZCBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ZCBook/ZCBook_Header.h;
 			};
 			name = Release;
 		};
