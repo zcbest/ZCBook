@@ -30,6 +30,7 @@ class NewList_DescriptionViewController: UIViewController {
         self.textView.text = "你可以在这里撰写详细的介绍、评价、吐槽"
         self.textView.font = UIFont.systemFontOfSize(20)
         self.textView.editable = true
+        self.textView.delegate = self
         self.textView.selectable = true
         //旧内容编辑时全选
         self.textView.clearsOnInsertion = true
@@ -51,4 +52,8 @@ class NewList_DescriptionViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+}
+
+extension NewList_DescriptionViewController: UITextViewDelegate{
+
 }

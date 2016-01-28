@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B0556A2B2C39D7BDC4B51C4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 856E8FB589951971D82138B0 /* libPods.a */; };
+		6BA0326687C1CF7608C0DB4E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CB78C5240F27805134A7D2 /* Pods.framework */; };
 		F01AFE001C5670F5004F2A7A /* NewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01AFDFF1C5670F5004F2A7A /* NewListView.swift */; };
 		F0303D9F1C5610CF00434518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0303D9E1C5610CF00434518 /* AppDelegate.swift */; };
 		F0303DA61C5610CF00434518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0303DA51C5610CF00434518 /* Assets.xcassets */; };
@@ -28,6 +28,8 @@
 		F0B8B0BC1C585D830074E139 /* NewList_CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B0BB1C585D830074E139 /* NewList_CategoryViewController.swift */; };
 		F0B8B0BE1C585D970074E139 /* NewList_DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B0BD1C585D970074E139 /* NewList_DescriptionViewController.swift */; };
 		F0B8B0C01C58A8E10074E139 /* LeadPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B0BF1C58A8E10074E139 /* LeadPageViewController.swift */; };
+		F0CB7A171C5A24A8008ABDC5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CB7A161C5A24A8008ABDC5 /* LoginViewController.swift */; };
+		F0CB7A191C5A24BA008ABDC5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CB7A181C5A24BA008ABDC5 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +51,8 @@
 
 /* Begin PBXFileReference section */
 		34F0B5A41CBF6AAC01D88852 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		856E8FB589951971D82138B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		951926A57DFBE6AD1BC4FA4C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E8CB78C5240F27805134A7D2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01AFDFF1C5670F5004F2A7A /* NewListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewListView.swift; sourceTree = "<group>"; };
 		F0303D9B1C5610CF00434518 /* ZCBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0303D9E1C5610CF00434518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,8 @@
 		F0B8B0BB1C585D830074E139 /* NewList_CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewList_CategoryViewController.swift; sourceTree = "<group>"; };
 		F0B8B0BD1C585D970074E139 /* NewList_DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewList_DescriptionViewController.swift; sourceTree = "<group>"; };
 		F0B8B0BF1C58A8E10074E139 /* LeadPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadPageViewController.swift; sourceTree = "<group>"; };
+		F0CB7A161C5A24A8008ABDC5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F0CB7A181C5A24BA008ABDC5 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B0556A2B2C39D7BDC4B51C4 /* libPods.a in Frameworks */,
+				6BA0326687C1CF7608C0DB4E /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +112,7 @@
 		C4BE548110AD3FAF7DD301DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				856E8FB589951971D82138B0 /* libPods.a */,
+				E8CB78C5240F27805134A7D2 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,6 +178,7 @@
 		F0303D9D1C5610CF00434518 /* ZCBook */ = {
 			isa = PBXGroup;
 			children = (
+				F0CB7A151C5A21B6008ABDC5 /* Login/Register */,
 				F0303DCC1C56124100434518 /* RankingList */,
 				F0303DCE1C56128A00434518 /* Discovery */,
 				F0303DCF1C56129400434518 /* New */,
@@ -266,6 +271,15 @@
 				F0303DE61C562F0600434518 /* Constant.swift */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0CB7A151C5A21B6008ABDC5 /* Login/Register */ = {
+			isa = PBXGroup;
+			children = (
+				F0CB7A161C5A24A8008ABDC5 /* LoginViewController.swift */,
+				F0CB7A181C5A24BA008ABDC5 /* RegisterViewController.swift */,
+			);
+			name = Login/Register;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -465,6 +479,8 @@
 				F0B8B0C01C58A8E10074E139 /* LeadPageViewController.swift in Sources */,
 				F0303DD61C5613AF00434518 /* RankingViewController.swift in Sources */,
 				F0303DD81C5613C100434518 /* DiscoveryViewController.swift in Sources */,
+				F0CB7A171C5A24A8008ABDC5 /* LoginViewController.swift in Sources */,
+				F0CB7A191C5A24BA008ABDC5 /* RegisterViewController.swift in Sources */,
 				F0B8B0BA1C585D5E0074E139 /* NewList_TitleViewController.swift in Sources */,
 				F0B8B0BC1C585D830074E139 /* NewList_CategoryViewController.swift in Sources */,
 				F01AFE001C5670F5004F2A7A /* NewListView.swift in Sources */,

@@ -28,7 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func showLeadPage() -> UIViewController{
-        return MainTabBarController()
+//        return MainTabBarController()
+        return LoginViewController()
     }
     
     func applicationWillResignActive(application: UIApplication) {
