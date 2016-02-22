@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00FDC639807E20C9922AC243291942DB /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E94E0834A43C6D0A32C4E56E2BE9E82E /* SVProgressHUD.bundle */; };
+		00FDC639807E20C9922AC243291942DB /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FECEA719F5DCC3B16A91779DAC52DE59 /* SVProgressHUD.bundle */; };
 		09CE94A3E486E6D76DC6B14186977C86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
-		0A2457FA7B41FEF0A3E613BB47FB8F73 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C2734D6F86245DEDDF8873B2131F30B /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		177505519262F40CB4FF36390818326F /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25473DB6F94D537C3B6F18EE328598FA /* ConstraintMaker.swift */; };
+		0A2457FA7B41FEF0A3E613BB47FB8F73 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7294F9344ADDEFB22DB36041958CFC8B /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		177505519262F40CB4FF36390818326F /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE91CB7C216056EDBFFF53889B90AE2D /* ConstraintMaker.swift */; };
 		177AD2902585D7FB6358D67A9C677435 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
-		2529BFC8CB8F0BB562C9722F19A18E62 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F47B386B33FD0F4310257D4DA214A5 /* SVProgressHUD-dummy.m */; };
-		27F1C0073C45799F91A5DD7785CFDB66 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B557BCCF07765367D7EEDB01914234 /* EdgeInsets.swift */; };
-		29611E3E5491E2538C740F43FE14FECB /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD5C0526FF96F1D76B6D7D2D0B5E9F4 /* ViewController+SnapKit.swift */; };
-		3595E6EB74D687ACC5F4EE0992F98F7D /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34339BB41B623D760FE70CBBE1811357 /* SVIndefiniteAnimatedView.m */; };
-		4BD46F2F226A46D2B27BD958C5D623D3 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446FACCACB1222EC62A8D45E6DFA009A /* View+SnapKit.swift */; };
-		5440344B6BB9FD463B6129BB775303C5 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8830604DCFD1D36FDE4A5264B99E4595 /* Constraint.swift */; };
+		2529BFC8CB8F0BB562C9722F19A18E62 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB37A1120733F267161B73F0A2D7152D /* SVProgressHUD-dummy.m */; };
+		27F1C0073C45799F91A5DD7785CFDB66 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0829D035514A93A326736BD2580411FF /* EdgeInsets.swift */; };
+		29611E3E5491E2538C740F43FE14FECB /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A6595E098A6A0D344FC3903ACC52CA /* ViewController+SnapKit.swift */; };
+		3595E6EB74D687ACC5F4EE0992F98F7D /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5B27C9128E1122DA21B5A7E3804F28 /* SVIndefiniteAnimatedView.m */; };
+		4BD46F2F226A46D2B27BD958C5D623D3 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D7B9CE767C5F45E47E7A396379223 /* View+SnapKit.swift */; };
+		5440344B6BB9FD463B6129BB775303C5 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A98C38C8D26D5849186472C8CF0D5E /* Constraint.swift */; };
 		572F3BEA4ACD3C07B1ED8DD62BDAACE3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
-		798581321F55A9BD2810B68CBE589F33 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A3B00CBF5F3B29E91633DC3FAD7161 /* SVProgressHUD.m */; };
-		87CFFF73940583588E99D9FA7A101E1E /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A443CF5380BF3A52ABD82A987696F7B /* ConstraintRelation.swift */; };
-		8B8D630D0C7898A2139FEDCCBF8387C8 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F933B1C2858633F42CA5A6D80BB9FED /* ConstraintItem.swift */; };
-		8EF5326F5474A596A690763A377230E7 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE984C3FBECA163EB5477A5617BBFB6B /* LayoutConstraint.swift */; };
-		95DA9C8AC097DE18AAC0C48F8DC2497D /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E05B53549D8C244A5CD545E12219ED /* SnapKit.swift */; };
-		A41A53FC1C28828E333572A4D5B2C24C /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A80EAE34496B18C2C6DC1063B10263C8 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		798581321F55A9BD2810B68CBE589F33 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 09010FFDD6BB4F92E5A5893BFDB3CE18 /* SVProgressHUD.m */; };
+		87CFFF73940583588E99D9FA7A101E1E /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D6E1CE818603B09B1BA016FC96DD92 /* ConstraintRelation.swift */; };
+		8B8D630D0C7898A2139FEDCCBF8387C8 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB440AA44D9A443BE20727519B510009 /* ConstraintItem.swift */; };
+		8EF5326F5474A596A690763A377230E7 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7174248649A0B1053E9323DCA21C50 /* LayoutConstraint.swift */; };
+		95DA9C8AC097DE18AAC0C48F8DC2497D /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CE34FC84CA88A5B18E273F99AE1854 /* SnapKit.swift */; };
+		A41A53FC1C28828E333572A4D5B2C24C /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EB1B9BD9D9FC93DAA71FFEAE8E931F /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A637C3DAEA05B078155EF7C883F7660E /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA0B5F3A462DB8B14A0A36593E64490F /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 742ED79AE0E63647687BD082E17CA44B /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA0B5F3A462DB8B14A0A36593E64490F /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFD56AE916D5CD667B8C48FD1214AE8 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACA16143C1B32AA96951943DF3DA2F8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
 		C32C131EBC6B75800779EFDEF94B6B87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
-		C5CE97F8396D1A6E09FDE2E4878AF1F1 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFEDB80565B077BA16E66997214D2E37 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9E10949CD687C7F68753EBC9BCCF711 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A942778E55357CDB5B6022508B3A3F8B /* SnapKit-dummy.m */; };
-		DD8804CAB0DF1F72D6945E062AC8D52C /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EB42C1A55A753A32F8DB61A6AD4912 /* ConstraintAttributes.swift */; };
-		E9D78F7488A41B68E2ABC3CF1412A75D /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC3FAED780763180B132DC4D9C0634A /* ConstraintDescription.swift */; };
-		F972BADD3A32868E33A57389221DBCCC /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB40021416B556EF26C35F3E1CC527E /* Debugging.swift */; };
+		C5CE97F8396D1A6E09FDE2E4878AF1F1 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E272342B5D2D02034710D1725BBD5B /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9E10949CD687C7F68753EBC9BCCF711 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EC279B2BF40D3E4F10F0E6DEEB7360 /* SnapKit-dummy.m */; };
+		DD8804CAB0DF1F72D6945E062AC8D52C /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8F593D663B674D0EE0DCAEC6AB0536 /* ConstraintAttributes.swift */; };
+		E9D78F7488A41B68E2ABC3CF1412A75D /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2B39875542A387EA728C0ACA0CA303 /* ConstraintDescription.swift */; };
+		F972BADD3A32868E33A57389221DBCCC /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E51B14C544CB79242CDF35B551D40 /* Debugging.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,105 +54,105 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020F731724569EF48BFEA7E2E3163257 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
-		02547F444CACE734524B9A3048022CEF /* AVIMVideoMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMVideoMessage.h; sourceTree = "<group>"; };
-		07E98A1721016F0AFC5623443EEE4B5A /* AVSearchSortBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchSortBuilder.h; sourceTree = "<group>"; };
-		08C7C71A25B62E26496007C70066639F /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
-		0B0119F3F86A03453C86D50DBEC0F3F7 /* AVIMLocationMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMLocationMessage.h; sourceTree = "<group>"; };
-		0BC3FAED780763180B132DC4D9C0634A /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
-		0FD8AB9731B0FBDDF6F8C7C72D581E6E /* AVIMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMMessage.h; sourceTree = "<group>"; };
-		113A757C44D708446BB810E6C368D4F6 /* AVIMConversationQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMConversationQuery.h; sourceTree = "<group>"; };
-		123FFEA3EFBC4666CBAD0D1C76729FB8 /* AVIMCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMCommon.h; sourceTree = "<group>"; };
-		12E05B53549D8C244A5CD545E12219ED /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
-		13E52175BF46C38335197CD873C5B08F /* AVACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVACL.h; sourceTree = "<group>"; };
-		197F28FC29AAD5E77D67927BC6EC7A2A /* AVObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVObject+Subclass.h"; sourceTree = "<group>"; };
-		1C3929907D42705FE44FEE2644032960 /* AVIMKeyedConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMKeyedConversation.h; sourceTree = "<group>"; };
-		1CB27F2A2AEA127918519C6472FF58C5 /* libAVOSCloud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloud.a; sourceTree = "<group>"; };
-		1E4F42ADDA310C1BD852340833B35B1A /* AVSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSession.h; sourceTree = "<group>"; };
-		25473DB6F94D537C3B6F18EE328598FA /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		016C83EC150A78D62312406935399710 /* AVOSCloudIM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloudIM.h; sourceTree = "<group>"; };
+		0515BB194F41BFD27CC4C2043FB670A6 /* AVStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVStatus.h; sourceTree = "<group>"; };
+		0829D035514A93A326736BD2580411FF /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
+		09010FFDD6BB4F92E5A5893BFDB3CE18 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		0954ACD69FF608F41F12E729C51F983A /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		09B0B448118C4389DFFDAB2167648815 /* AVHistoryMessageQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessageQuery.h; sourceTree = "<group>"; };
+		0EAA9D6D2B40285AB46552AC9AD3787C /* AVConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVConstants.h; sourceTree = "<group>"; };
+		14D6E1CE818603B09B1BA016FC96DD92 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		15D3F2460A40B92BC63DFF4D8384E49D /* AVObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVObject.h; sourceTree = "<group>"; };
+		1B123F8351B0AD6BC2F0A71576056C08 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		1D0B916FA29CBD250C3A5C74C8933411 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2734CD2E76B70C728324E040586335EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2679D07BC72661A03E57ECE4A1307995 /* AVIMImageMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMImageMessage.h; sourceTree = "<group>"; };
 		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		2FAC7388C1DD7F62D6B13EE389A60C3C /* AVSaveOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSaveOption.h; sourceTree = "<group>"; };
-		30EB42C1A55A753A32F8DB61A6AD4912 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
-		34339BB41B623D760FE70CBBE1811357 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		363BB22F11A99FC71223DAD90E0E6488 /* libAVOSCloudIM.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloudIM.a; sourceTree = "<group>"; };
-		3BB40021416B556EF26C35F3E1CC527E /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
-		3F933B1C2858633F42CA5A6D80BB9FED /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
-		409115AE6E2EE141F696174D54630CAB /* AVHistoryMessageQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessageQuery.h; sourceTree = "<group>"; };
-		446FACCACB1222EC62A8D45E6DFA009A /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
-		4703C2C38A7D118AEF238271C1725DD1 /* libAVOSCloudCrashReporting.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloudCrashReporting.a; sourceTree = "<group>"; };
-		49BE23B1E23ABE09CE64AEF76579F86F /* AVIMClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMClient.h; sourceTree = "<group>"; };
-		552A8244AC4412399B7F01C1A9E7867E /* AVHistoryMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessage.h; sourceTree = "<group>"; };
-		57A3B00CBF5F3B29E91633DC3FAD7161 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		58F47B386B33FD0F4310257D4DA214A5 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		5E507BE2FA5BC730E7D71F19792874F3 /* AVLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVLogger.h; sourceTree = "<group>"; };
-		5F0DFDD65A7B7930ED4B670CFCB343EC /* AVConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVConstants.h; sourceTree = "<group>"; };
+		2BEBD052A134DE5A6F457A06816E967C /* AVIMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMMessage.h; sourceTree = "<group>"; };
+		304EC0E1FA598DF19CADAD8BFAA344E5 /* AVIMConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMConversation.h; sourceTree = "<group>"; };
+		36A0B9A38D001280AB6F753613CE0284 /* AVQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVQuery.h; sourceTree = "<group>"; };
+		39E272342B5D2D02034710D1725BBD5B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		3BBE6E9598FBB352C7F2CC0FDBDC57DC /* AVSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSubclassing.h; sourceTree = "<group>"; };
+		3DFD56AE916D5CD667B8C48FD1214AE8 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		41898AC7F6C11775C53F5E19F1561A91 /* AVIMKeyedConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMKeyedConversation.h; sourceTree = "<group>"; };
+		42359F88EB5A3565CF81C615FB50CC50 /* AVIMFileMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMFileMessage.h; sourceTree = "<group>"; };
+		470234A5E6DEFBBDD0CA1CE2A6E3836A /* AVHistoryMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVHistoryMessage.h; sourceTree = "<group>"; };
+		4A8F593D663B674D0EE0DCAEC6AB0536 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		4D167AC664961926D08361C73BEF7B51 /* libAVOSCloudIM.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloudIM.a; sourceTree = "<group>"; };
+		50CDAD8C16ACDEBBF5A79B97039F6BAF /* AVLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVLogger.h; sourceTree = "<group>"; };
+		54FD3AE3258E5C8DE1C7AE732A41EFE2 /* AVIMCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMCommon.h; sourceTree = "<group>"; };
+		56BE16EA997F0BE4D152679D6A7A43EC /* libAVOSCloud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloud.a; sourceTree = "<group>"; };
+		5AC6C5449BFA78532FD8E59C64D81955 /* AVPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPush.h; sourceTree = "<group>"; };
 		5F351F156E4649F0EC4078C095A70D6E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61F68ABBFE55111058F12E6DD821A906 /* AVIMConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMConversation.h; sourceTree = "<group>"; };
-		644437492B4572DECDE17B1D89649AA4 /* AVRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRelation.h; sourceTree = "<group>"; };
-		68FFB01671330A18635366B9738F8543 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		6FC63BED0D9E5E6660BDCE7228AE6B2A /* AVIMFileMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMFileMessage.h; sourceTree = "<group>"; };
-		742ED79AE0E63647687BD082E17CA44B /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
-		78B557BCCF07765367D7EEDB01914234 /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
-		78E8DA363F044B6EB13C5C5D3769EA10 /* AVObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVObject.h; sourceTree = "<group>"; };
+		62EC279B2BF40D3E4F10F0E6DEEB7360 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		635149FB4C7505DD52826D548C9AA043 /* AVIMUserOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMUserOptions.h; sourceTree = "<group>"; };
+		64A6595E098A6A0D344FC3903ACC52CA /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		6999B333966C0410C0E31FE35FE092CD /* AVObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVObject+Subclass.h"; sourceTree = "<group>"; };
+		6A1B0214B05F98194056DE4EF4BB896B /* AVIMConversationUpdateBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMConversationUpdateBuilder.h; sourceTree = "<group>"; };
+		6D2B39875542A387EA728C0ACA0CA303 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		6F9EC594F93BEC3490CA1EC21C7E7527 /* AVCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloud.h; sourceTree = "<group>"; };
+		71FF06A9B35E1E1876A682E01238B4DA /* AVUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVUser.h; sourceTree = "<group>"; };
+		7294F9344ADDEFB22DB36041958CFC8B /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		76AE36E92DB5F16B6B8754B10CF47822 /* AVSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSession.h; sourceTree = "<group>"; };
 		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
-		7C2734D6F86245DEDDF8873B2131F30B /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		7CD5C0526FF96F1D76B6D7D2D0B5E9F4 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
-		803DB0C277297AC002FF66F7EF84DF55 /* AVAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnonymousUtils.h; sourceTree = "<group>"; };
-		80BA9304C47A08E5AE47DD7D5B49C8AD /* AVStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVStatus.h; sourceTree = "<group>"; };
-		842C6C323C0564CA497C7248FE7DFB79 /* AVOSCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloud.h; sourceTree = "<group>"; };
+		7EAA84A6C973EDB0A9A2F9B5A55102DE /* AVInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVInstallation.h; sourceTree = "<group>"; };
+		84EB1B9BD9D9FC93DAA71FFEAE8E931F /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		86EF2A75E5B408565DE83FD02CAA5117 /* AVCloudQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloudQueryResult.h; sourceTree = "<group>"; };
 		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		8830604DCFD1D36FDE4A5264B99E4595 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
-		886FBBC6222AA3AEAF6FD140AD9420ED /* AVRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRole.h; sourceTree = "<group>"; };
+		886144CBBC305E81F171D0901D4486A2 /* AVFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFile.h; sourceTree = "<group>"; };
 		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		8B38E759B1FBF5B768C759E3349E834B /* AVCloudQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloudQueryResult.h; sourceTree = "<group>"; };
-		8E44BCC72B97B615E3C2ACBF9FF27F10 /* AVAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnalytics.h; sourceTree = "<group>"; };
-		8FB530E38721FC04945EA5BE335B22F2 /* AVIMTypedMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMTypedMessage.h; sourceTree = "<group>"; };
-		916AAF1201048FF074817E37F756F544 /* AVFileQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFileQuery.h; sourceTree = "<group>"; };
-		919698AA5BD2D487844CB0EDF29B18BB /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		8A0AA47807A1A50A8E78E0C3AD8FE6B6 /* AVSaveOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSaveOption.h; sourceTree = "<group>"; };
+		8AF68600089AC6DAD4DA6A97147444C7 /* AVOSCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloud.h; sourceTree = "<group>"; };
+		8BACDE6BC11580B245855F672DC37092 /* AVIMLocationMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMLocationMessage.h; sourceTree = "<group>"; };
+		8E10DB07AC57F33993DA53DC4C869857 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		8F7174248649A0B1053E9323DCA21C50 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		935C640775FE6C9E62701955ABF1658A /* AVIMClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMClient.h; sourceTree = "<group>"; };
+		94A7494C00DF91855D3563AF3E66C7C8 /* AVAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnalytics.h; sourceTree = "<group>"; };
 		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		9A443CF5380BF3A52ABD82A987696F7B /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
-		9C2F4FD20953CA4CBAE960DEC73A05EB /* AVIMClientOpenOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMClientOpenOption.h; sourceTree = "<group>"; };
-		9C5EFB2B33172A97128CDA40A2B06956 /* AVGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGroup.h; sourceTree = "<group>"; };
-		A07BBCFD7DA39CCE7DE2782F4F57E77C /* AVGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGeoPoint.h; sourceTree = "<group>"; };
-		A3498DA10BFC660467F68C73A22F8BF9 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
-		A7BB4E1C845FBE2853333AD74D28694A /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
-		A80EAE34496B18C2C6DC1063B10263C8 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		A83368D405B151427937A6DA9ECBFC8C /* AVIMImageMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMImageMessage.h; sourceTree = "<group>"; };
-		A942778E55357CDB5B6022508B3A3F8B /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
-		AAED12AA6047BCEB22BA41D32C2C12DC /* AVOSCloudIM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloudIM.h; sourceTree = "<group>"; };
-		ADB50F4EAE72286DB37D2EF2D2329267 /* AVInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVInstallation.h; sourceTree = "<group>"; };
+		98369A7342E7F8CDBAA25BF9066AE09E /* AVMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVMessage.h; sourceTree = "<group>"; };
+		98A07B224AD652947EB1B6BF44E40DA8 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		9A83DA3AF689C6771764758730DD6359 /* AVACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVACL.h; sourceTree = "<group>"; };
+		9ACA374EDDDAE6861F4C855B061A1D75 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		9C47756A680FC52A38B9485B34909318 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC94C44B943EB309640EEE24EE032D0 /* AVRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRole.h; sourceTree = "<group>"; };
+		9E52E38EECE34622F3953CF443361FF9 /* libAVOSCloudCrashReporting.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloudCrashReporting.a; sourceTree = "<group>"; };
+		9F0BEF3FDD7C123CD4045A523648A217 /* AVSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSignature.h; sourceTree = "<group>"; };
+		A1CE34FC84CA88A5B18E273F99AE1854 /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
+		A3C3DB411A250A26CB965E5493E25143 /* AVAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAvailability.h; sourceTree = "<group>"; };
+		A462A04BA765957754D5CDE4C821813D /* AVIMTextMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMTextMessage.h; sourceTree = "<group>"; };
+		A8CD5ADBB74B33B52549547A495E6410 /* AVSearchQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchQuery.h; sourceTree = "<group>"; };
+		AB440AA44D9A443BE20727519B510009 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
 		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		B604D31C5E797B707EA0BE67B848CEB1 /* AVSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSubclassing.h; sourceTree = "<group>"; };
-		B6B026E87FB60246E9926CF4FD3C8952 /* AVQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVQuery.h; sourceTree = "<group>"; };
-		B97FB831099A6D52614DF872F38D9980 /* AVIMSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMSignature.h; sourceTree = "<group>"; };
+		B3D58A9AE7D3977C9A983A997E81925E /* AVIMSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMSignature.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C0A2129FE34734F7F62A9AA6598AE8AE /* AVAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAvailability.h; sourceTree = "<group>"; };
-		C1CB39E2EECBB9524A2730C543833000 /* AVIMUserOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMUserOptions.h; sourceTree = "<group>"; };
-		C8920F3AA3F36A63FA06F9446A314985 /* AVCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVCloud.h; sourceTree = "<group>"; };
+		BE9AD1F0C60DF55BF90A0DDA0539DBE3 /* AVIMVideoMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMVideoMessage.h; sourceTree = "<group>"; };
+		BEC664365964813D7887E43C117E04E9 /* AVRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVRelation.h; sourceTree = "<group>"; };
+		BF82A95F617401CA3CEC3AB43748B85C /* AVIMConversationQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMConversationQuery.h; sourceTree = "<group>"; };
+		C9CC4217CE62A98893DCB8A934068C51 /* AVSearchSortBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchSortBuilder.h; sourceTree = "<group>"; };
+		CB4864166E75273ECCEA89796428815E /* AVGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGeoPoint.h; sourceTree = "<group>"; };
 		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		CD69EFE9DE2CACCBFBFECEDB8D2EB2F1 /* AVIMConversationUpdateBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMConversationUpdateBuilder.h; sourceTree = "<group>"; };
+		CBD052CEEB791E95CB007E427BE17485 /* AVIMAudioMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMAudioMessage.h; sourceTree = "<group>"; };
 		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D40DC3EC02D6CA1C1534CC17F8E08088 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5A326FC58C6B27E6FC5D6822A1DE268 /* AVFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFile.h; sourceTree = "<group>"; };
+		D3A98C38C8D26D5849186472C8CF0D5E /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DA5B27C9128E1122DA21B5A7E3804F28 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		DB37A1120733F267161B73F0A2D7152D /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		DC9D4FE6E23261B3E23770768B8BE698 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE984C3FBECA163EB5477A5617BBFB6B /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
-		E0D47C618F33BF4A10A56C772C1F99CD /* AVMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVMessage.h; sourceTree = "<group>"; };
-		E4C06D9D5DB8F1F10076C3D249368C36 /* AVPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVPush.h; sourceTree = "<group>"; };
-		E4FA166E1DB74BB267FF668CA5CC90FB /* AVSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSignature.h; sourceTree = "<group>"; };
-		E65A310CE7F3BFFEA60A60D8C5D3F346 /* AVIMTextMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMTextMessage.h; sourceTree = "<group>"; };
+		DCEE4CCAB431F28747A09E1FBE1D73A4 /* AVOSCloudCrashReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloudCrashReporting.h; sourceTree = "<group>"; };
+		DF9D7B9CE767C5F45E47E7A396379223 /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
+		E44A523E55765D594FB5114DB7926BF3 /* AVAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVAnonymousUtils.h; sourceTree = "<group>"; };
+		E7B43777706052896991122073DBDF32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E94E0834A43C6D0A32C4E56E2BE9E82E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		EC6F76E2115081ED35DCF71195C2646C /* AVSearchQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVSearchQuery.h; sourceTree = "<group>"; };
-		EE3F202BD2290D7DD51380439F397633 /* AVIMAudioMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMAudioMessage.h; sourceTree = "<group>"; };
-		EFEDB80565B077BA16E66997214D2E37 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		EB2E876E2EE28E1182971C2FFF7ADC7E /* AVGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVGroup.h; sourceTree = "<group>"; };
+		EF32A0F90117F6FCD9A20E18747BDB27 /* AVIMTypedMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMTypedMessage.h; sourceTree = "<group>"; };
+		F5720CB37C8AC2C0263E228BDFA297F1 /* AVIMClientOpenOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMClientOpenOption.h; sourceTree = "<group>"; };
 		F5DC6620FC308BDBB4E38FD82AA71F53 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA22BCB0B0DB3B1365F82E5FFB756C84 /* AVUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVUser.h; sourceTree = "<group>"; };
-		FBBA28F05F516AD232024F2C665B42D1 /* AVIMAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMAvailability.h; sourceTree = "<group>"; };
-		FFE5299470A90408D410680E28D3B400 /* AVOSCloudCrashReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVOSCloudCrashReporting.h; sourceTree = "<group>"; };
+		F75E51B14C544CB79242CDF35B551D40 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		F8EC6E40E15BD6B2DF1A22723EF9E1C8 /* AVIMAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVIMAvailability.h; sourceTree = "<group>"; };
+		F9BC0EEF7A047E3E6BE00232019E7FB8 /* AVFileQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AVFileQuery.h; sourceTree = "<group>"; };
+		FE91CB7C216056EDBFFF53889B90AE2D /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		FECEA719F5DCC3B16A91779DAC52DE59 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,38 +184,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0ABCB53068A4EDF384B9FB567C8D1378 /* Support Files */ = {
+		220ACEEA779A1173E8BEC34136E672DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D40DC3EC02D6CA1C1534CC17F8E08088 /* Info.plist */,
-				020F731724569EF48BFEA7E2E3163257 /* SnapKit.modulemap */,
-				A3498DA10BFC660467F68C73A22F8BF9 /* SnapKit.xcconfig */,
-				A942778E55357CDB5B6022508B3A3F8B /* SnapKit-dummy.m */,
-				A7BB4E1C845FBE2853333AD74D28694A /* SnapKit-prefix.pch */,
-				742ED79AE0E63647687BD082E17CA44B /* SnapKit-umbrella.h */,
+				9AA3461EEE9B35B9216269E6C143469E /* AVOSCloud */,
+				C4AA7A3286F7D08EFE596E2BA180FDB3 /* AVOSCloudCrashReporting */,
+				B16AA655DE0CE41CBDD26730858F244C /* AVOSCloudIM */,
+				93B9FED9A496BC164042FC6B1CC7E82B /* MJRefresh */,
+				A944AD51AF68C58A19D33490A95738BF /* SnapKit */,
+				BB08704442D792FAADC620C86D6A15DA /* SVProgressHUD */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SnapKit";
-			sourceTree = "<group>";
-		};
-		301D38CDD55BC44E226CB18B1E2340FE /* SnapKit */ = {
-			isa = PBXGroup;
-			children = (
-				8830604DCFD1D36FDE4A5264B99E4595 /* Constraint.swift */,
-				30EB42C1A55A753A32F8DB61A6AD4912 /* ConstraintAttributes.swift */,
-				0BC3FAED780763180B132DC4D9C0634A /* ConstraintDescription.swift */,
-				3F933B1C2858633F42CA5A6D80BB9FED /* ConstraintItem.swift */,
-				25473DB6F94D537C3B6F18EE328598FA /* ConstraintMaker.swift */,
-				9A443CF5380BF3A52ABD82A987696F7B /* ConstraintRelation.swift */,
-				3BB40021416B556EF26C35F3E1CC527E /* Debugging.swift */,
-				78B557BCCF07765367D7EEDB01914234 /* EdgeInsets.swift */,
-				DE984C3FBECA163EB5477A5617BBFB6B /* LayoutConstraint.swift */,
-				12E05B53549D8C244A5CD545E12219ED /* SnapKit.swift */,
-				446FACCACB1222EC62A8D45E6DFA009A /* View+SnapKit.swift */,
-				7CD5C0526FF96F1D76B6D7D2D0B5E9F4 /* ViewController+SnapKit.swift */,
-				0ABCB53068A4EDF384B9FB567C8D1378 /* Support Files */,
-			);
-			path = SnapKit;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
@@ -227,77 +206,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		40838D82B98537AC5A93BEF00DDFBDFF /* AVOSCloud */ = {
-			isa = PBXGroup;
-			children = (
-				13E52175BF46C38335197CD873C5B08F /* AVACL.h */,
-				8E44BCC72B97B615E3C2ACBF9FF27F10 /* AVAnalytics.h */,
-				803DB0C277297AC002FF66F7EF84DF55 /* AVAnonymousUtils.h */,
-				C0A2129FE34734F7F62A9AA6598AE8AE /* AVAvailability.h */,
-				C8920F3AA3F36A63FA06F9446A314985 /* AVCloud.h */,
-				8B38E759B1FBF5B768C759E3349E834B /* AVCloudQueryResult.h */,
-				5F0DFDD65A7B7930ED4B670CFCB343EC /* AVConstants.h */,
-				D5A326FC58C6B27E6FC5D6822A1DE268 /* AVFile.h */,
-				916AAF1201048FF074817E37F756F544 /* AVFileQuery.h */,
-				A07BBCFD7DA39CCE7DE2782F4F57E77C /* AVGeoPoint.h */,
-				9C5EFB2B33172A97128CDA40A2B06956 /* AVGroup.h */,
-				552A8244AC4412399B7F01C1A9E7867E /* AVHistoryMessage.h */,
-				409115AE6E2EE141F696174D54630CAB /* AVHistoryMessageQuery.h */,
-				ADB50F4EAE72286DB37D2EF2D2329267 /* AVInstallation.h */,
-				5E507BE2FA5BC730E7D71F19792874F3 /* AVLogger.h */,
-				E0D47C618F33BF4A10A56C772C1F99CD /* AVMessage.h */,
-				78E8DA363F044B6EB13C5C5D3769EA10 /* AVObject.h */,
-				197F28FC29AAD5E77D67927BC6EC7A2A /* AVObject+Subclass.h */,
-				842C6C323C0564CA497C7248FE7DFB79 /* AVOSCloud.h */,
-				E4C06D9D5DB8F1F10076C3D249368C36 /* AVPush.h */,
-				B6B026E87FB60246E9926CF4FD3C8952 /* AVQuery.h */,
-				644437492B4572DECDE17B1D89649AA4 /* AVRelation.h */,
-				886FBBC6222AA3AEAF6FD140AD9420ED /* AVRole.h */,
-				2FAC7388C1DD7F62D6B13EE389A60C3C /* AVSaveOption.h */,
-				EC6F76E2115081ED35DCF71195C2646C /* AVSearchQuery.h */,
-				07E98A1721016F0AFC5623443EEE4B5A /* AVSearchSortBuilder.h */,
-				1E4F42ADDA310C1BD852340833B35B1A /* AVSession.h */,
-				E4FA166E1DB74BB267FF668CA5CC90FB /* AVSignature.h */,
-				80BA9304C47A08E5AE47DD7D5B49C8AD /* AVStatus.h */,
-				B604D31C5E797B707EA0BE67B848CEB1 /* AVSubclassing.h */,
-				FA22BCB0B0DB3B1365F82E5FFB756C84 /* AVUser.h */,
-				DCAFD44754F2442C167D445691631520 /* Frameworks */,
-			);
-			path = AVOSCloud;
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3926C638AD0708942C88C2BC89261735 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4F42723C0EA9C442FADC443D5F1621FC /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				E94E0834A43C6D0A32C4E56E2BE9E82E /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		6BC94B0F5D838CC273DF0A8F74524254 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				40838D82B98537AC5A93BEF00DDFBDFF /* AVOSCloud */,
-				BAFDDB66AD6E62945DC7592297654F53 /* AVOSCloudCrashReporting */,
-				F9A83988E5259E76276F7FE1ECEE454D /* AVOSCloudIM */,
-				301D38CDD55BC44E226CB18B1E2340FE /* SnapKit */,
-				AB21679D6044442F59709E35CD3B27E0 /* SVProgressHUD */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		700B1FEE304071AB7F7D29AABB72EAC2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4703C2C38A7D118AEF238271C1725DD1 /* libAVOSCloudCrashReporting.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -320,50 +232,138 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
+		7C2CB3A93899CDB5B5F29A59CECD8E11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E52E38EECE34622F3953CF443361FF9 /* libAVOSCloudCrashReporting.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				6BC94B0F5D838CC273DF0A8F74524254 /* Pods */,
+				220ACEEA779A1173E8BEC34136E672DB /* Pods */,
 				EE750A566FDD2E9EAADC6F2F72EA6139 /* Products */,
 				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		87F9DF8651FA1E2E53CB099A5A996683 /* Support Files */ = {
+		8DA8BC5A5E68BC3C1492187BC4710BB2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2734CD2E76B70C728324E040586335EC /* Info.plist */,
-				08C7C71A25B62E26496007C70066639F /* SVProgressHUD.modulemap */,
-				919698AA5BD2D487844CB0EDF29B18BB /* SVProgressHUD.xcconfig */,
-				58F47B386B33FD0F4310257D4DA214A5 /* SVProgressHUD-dummy.m */,
-				68FFB01671330A18635366B9738F8543 /* SVProgressHUD-prefix.pch */,
-				A80EAE34496B18C2C6DC1063B10263C8 /* SVProgressHUD-umbrella.h */,
+				9C47756A680FC52A38B9485B34909318 /* Info.plist */,
+				1B123F8351B0AD6BC2F0A71576056C08 /* SVProgressHUD.modulemap */,
+				98A07B224AD652947EB1B6BF44E40DA8 /* SVProgressHUD.xcconfig */,
+				DB37A1120733F267161B73F0A2D7152D /* SVProgressHUD-dummy.m */,
+				0954ACD69FF608F41F12E729C51F983A /* SVProgressHUD-prefix.pch */,
+				84EB1B9BD9D9FC93DAA71FFEAE8E931F /* SVProgressHUD-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
-		AB21679D6044442F59709E35CD3B27E0 /* SVProgressHUD */ = {
+		93B9FED9A496BC164042FC6B1CC7E82B /* MJRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				EFEDB80565B077BA16E66997214D2E37 /* SVIndefiniteAnimatedView.h */,
-				34339BB41B623D760FE70CBBE1811357 /* SVIndefiniteAnimatedView.m */,
-				7C2734D6F86245DEDDF8873B2131F30B /* SVProgressHUD.h */,
-				57A3B00CBF5F3B29E91633DC3FAD7161 /* SVProgressHUD.m */,
-				4F42723C0EA9C442FADC443D5F1621FC /* Resources */,
-				87F9DF8651FA1E2E53CB099A5A996683 /* Support Files */,
 			);
-			path = SVProgressHUD;
+			path = MJRefresh;
 			sourceTree = "<group>";
 		};
-		B696AF3619B48391A1C3D9E1A9FE32B6 /* Frameworks */ = {
+		9AA3461EEE9B35B9216269E6C143469E /* AVOSCloud */ = {
 			isa = PBXGroup;
 			children = (
-				363BB22F11A99FC71223DAD90E0E6488 /* libAVOSCloudIM.a */,
+				9A83DA3AF689C6771764758730DD6359 /* AVACL.h */,
+				94A7494C00DF91855D3563AF3E66C7C8 /* AVAnalytics.h */,
+				E44A523E55765D594FB5114DB7926BF3 /* AVAnonymousUtils.h */,
+				A3C3DB411A250A26CB965E5493E25143 /* AVAvailability.h */,
+				6F9EC594F93BEC3490CA1EC21C7E7527 /* AVCloud.h */,
+				86EF2A75E5B408565DE83FD02CAA5117 /* AVCloudQueryResult.h */,
+				0EAA9D6D2B40285AB46552AC9AD3787C /* AVConstants.h */,
+				886144CBBC305E81F171D0901D4486A2 /* AVFile.h */,
+				F9BC0EEF7A047E3E6BE00232019E7FB8 /* AVFileQuery.h */,
+				CB4864166E75273ECCEA89796428815E /* AVGeoPoint.h */,
+				EB2E876E2EE28E1182971C2FFF7ADC7E /* AVGroup.h */,
+				470234A5E6DEFBBDD0CA1CE2A6E3836A /* AVHistoryMessage.h */,
+				09B0B448118C4389DFFDAB2167648815 /* AVHistoryMessageQuery.h */,
+				7EAA84A6C973EDB0A9A2F9B5A55102DE /* AVInstallation.h */,
+				50CDAD8C16ACDEBBF5A79B97039F6BAF /* AVLogger.h */,
+				98369A7342E7F8CDBAA25BF9066AE09E /* AVMessage.h */,
+				15D3F2460A40B92BC63DFF4D8384E49D /* AVObject.h */,
+				6999B333966C0410C0E31FE35FE092CD /* AVObject+Subclass.h */,
+				8AF68600089AC6DAD4DA6A97147444C7 /* AVOSCloud.h */,
+				5AC6C5449BFA78532FD8E59C64D81955 /* AVPush.h */,
+				36A0B9A38D001280AB6F753613CE0284 /* AVQuery.h */,
+				BEC664365964813D7887E43C117E04E9 /* AVRelation.h */,
+				9DC94C44B943EB309640EEE24EE032D0 /* AVRole.h */,
+				8A0AA47807A1A50A8E78E0C3AD8FE6B6 /* AVSaveOption.h */,
+				A8CD5ADBB74B33B52549547A495E6410 /* AVSearchQuery.h */,
+				C9CC4217CE62A98893DCB8A934068C51 /* AVSearchSortBuilder.h */,
+				76AE36E92DB5F16B6B8754B10CF47822 /* AVSession.h */,
+				9F0BEF3FDD7C123CD4045A523648A217 /* AVSignature.h */,
+				0515BB194F41BFD27CC4C2043FB670A6 /* AVStatus.h */,
+				3BBE6E9598FBB352C7F2CC0FDBDC57DC /* AVSubclassing.h */,
+				71FF06A9B35E1E1876A682E01238B4DA /* AVUser.h */,
+				CAEEE534E457F63D97E77AABA98A4EAE /* Frameworks */,
 			);
-			name = Frameworks;
+			path = AVOSCloud;
+			sourceTree = "<group>";
+		};
+		A88BF2AF5B2525225A068DD3E5E18165 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FECEA719F5DCC3B16A91779DAC52DE59 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A944AD51AF68C58A19D33490A95738BF /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				D3A98C38C8D26D5849186472C8CF0D5E /* Constraint.swift */,
+				4A8F593D663B674D0EE0DCAEC6AB0536 /* ConstraintAttributes.swift */,
+				6D2B39875542A387EA728C0ACA0CA303 /* ConstraintDescription.swift */,
+				AB440AA44D9A443BE20727519B510009 /* ConstraintItem.swift */,
+				FE91CB7C216056EDBFFF53889B90AE2D /* ConstraintMaker.swift */,
+				14D6E1CE818603B09B1BA016FC96DD92 /* ConstraintRelation.swift */,
+				F75E51B14C544CB79242CDF35B551D40 /* Debugging.swift */,
+				0829D035514A93A326736BD2580411FF /* EdgeInsets.swift */,
+				8F7174248649A0B1053E9323DCA21C50 /* LayoutConstraint.swift */,
+				A1CE34FC84CA88A5B18E273F99AE1854 /* SnapKit.swift */,
+				DF9D7B9CE767C5F45E47E7A396379223 /* View+SnapKit.swift */,
+				64A6595E098A6A0D344FC3903ACC52CA /* ViewController+SnapKit.swift */,
+				C876A4A116655CB1CB36AAFA8A25D6B3 /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		B16AA655DE0CE41CBDD26730858F244C /* AVOSCloudIM */ = {
+			isa = PBXGroup;
+			children = (
+				CBD052CEEB791E95CB007E427BE17485 /* AVIMAudioMessage.h */,
+				F8EC6E40E15BD6B2DF1A22723EF9E1C8 /* AVIMAvailability.h */,
+				935C640775FE6C9E62701955ABF1658A /* AVIMClient.h */,
+				F5720CB37C8AC2C0263E228BDFA297F1 /* AVIMClientOpenOption.h */,
+				54FD3AE3258E5C8DE1C7AE732A41EFE2 /* AVIMCommon.h */,
+				304EC0E1FA598DF19CADAD8BFAA344E5 /* AVIMConversation.h */,
+				BF82A95F617401CA3CEC3AB43748B85C /* AVIMConversationQuery.h */,
+				6A1B0214B05F98194056DE4EF4BB896B /* AVIMConversationUpdateBuilder.h */,
+				42359F88EB5A3565CF81C615FB50CC50 /* AVIMFileMessage.h */,
+				2679D07BC72661A03E57ECE4A1307995 /* AVIMImageMessage.h */,
+				41898AC7F6C11775C53F5E19F1561A91 /* AVIMKeyedConversation.h */,
+				8BACDE6BC11580B245855F672DC37092 /* AVIMLocationMessage.h */,
+				2BEBD052A134DE5A6F457A06816E967C /* AVIMMessage.h */,
+				B3D58A9AE7D3977C9A983A997E81925E /* AVIMSignature.h */,
+				A462A04BA765957754D5CDE4C821813D /* AVIMTextMessage.h */,
+				EF32A0F90117F6FCD9A20E18747BDB27 /* AVIMTypedMessage.h */,
+				635149FB4C7505DD52826D548C9AA043 /* AVIMUserOptions.h */,
+				BE9AD1F0C60DF55BF90A0DDA0539DBE3 /* AVIMVideoMessage.h */,
+				016C83EC150A78D62312406935399710 /* AVOSCloudIM.h */,
+				FEA5418C5BBEC256730C40413280F906 /* Frameworks */,
+			);
+			path = AVOSCloudIM;
 			sourceTree = "<group>";
 		};
 		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
@@ -374,19 +374,46 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BAFDDB66AD6E62945DC7592297654F53 /* AVOSCloudCrashReporting */ = {
+		BB08704442D792FAADC620C86D6A15DA /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				FFE5299470A90408D410680E28D3B400 /* AVOSCloudCrashReporting.h */,
-				700B1FEE304071AB7F7D29AABB72EAC2 /* Frameworks */,
+				39E272342B5D2D02034710D1725BBD5B /* SVIndefiniteAnimatedView.h */,
+				DA5B27C9128E1122DA21B5A7E3804F28 /* SVIndefiniteAnimatedView.m */,
+				7294F9344ADDEFB22DB36041958CFC8B /* SVProgressHUD.h */,
+				09010FFDD6BB4F92E5A5893BFDB3CE18 /* SVProgressHUD.m */,
+				A88BF2AF5B2525225A068DD3E5E18165 /* Resources */,
+				8DA8BC5A5E68BC3C1492187BC4710BB2 /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		C4AA7A3286F7D08EFE596E2BA180FDB3 /* AVOSCloudCrashReporting */ = {
+			isa = PBXGroup;
+			children = (
+				DCEE4CCAB431F28747A09E1FBE1D73A4 /* AVOSCloudCrashReporting.h */,
+				7C2CB3A93899CDB5B5F29A59CECD8E11 /* Frameworks */,
 			);
 			path = AVOSCloudCrashReporting;
 			sourceTree = "<group>";
 		};
-		DCAFD44754F2442C167D445691631520 /* Frameworks */ = {
+		C876A4A116655CB1CB36AAFA8A25D6B3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1CB27F2A2AEA127918519C6472FF58C5 /* libAVOSCloud.a */,
+				E7B43777706052896991122073DBDF32 /* Info.plist */,
+				1D0B916FA29CBD250C3A5C74C8933411 /* SnapKit.modulemap */,
+				9ACA374EDDDAE6861F4C855B061A1D75 /* SnapKit.xcconfig */,
+				62EC279B2BF40D3E4F10F0E6DEEB7360 /* SnapKit-dummy.m */,
+				8E10DB07AC57F33993DA53DC4C869857 /* SnapKit-prefix.pch */,
+				3DFD56AE916D5CD667B8C48FD1214AE8 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		CAEEE534E457F63D97E77AABA98A4EAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56BE16EA997F0BE4D152679D6A7A43EC /* libAVOSCloud.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -401,31 +428,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F9A83988E5259E76276F7FE1ECEE454D /* AVOSCloudIM */ = {
+		FEA5418C5BBEC256730C40413280F906 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EE3F202BD2290D7DD51380439F397633 /* AVIMAudioMessage.h */,
-				FBBA28F05F516AD232024F2C665B42D1 /* AVIMAvailability.h */,
-				49BE23B1E23ABE09CE64AEF76579F86F /* AVIMClient.h */,
-				9C2F4FD20953CA4CBAE960DEC73A05EB /* AVIMClientOpenOption.h */,
-				123FFEA3EFBC4666CBAD0D1C76729FB8 /* AVIMCommon.h */,
-				61F68ABBFE55111058F12E6DD821A906 /* AVIMConversation.h */,
-				113A757C44D708446BB810E6C368D4F6 /* AVIMConversationQuery.h */,
-				CD69EFE9DE2CACCBFBFECEDB8D2EB2F1 /* AVIMConversationUpdateBuilder.h */,
-				6FC63BED0D9E5E6660BDCE7228AE6B2A /* AVIMFileMessage.h */,
-				A83368D405B151427937A6DA9ECBFC8C /* AVIMImageMessage.h */,
-				1C3929907D42705FE44FEE2644032960 /* AVIMKeyedConversation.h */,
-				0B0119F3F86A03453C86D50DBEC0F3F7 /* AVIMLocationMessage.h */,
-				0FD8AB9731B0FBDDF6F8C7C72D581E6E /* AVIMMessage.h */,
-				B97FB831099A6D52614DF872F38D9980 /* AVIMSignature.h */,
-				E65A310CE7F3BFFEA60A60D8C5D3F346 /* AVIMTextMessage.h */,
-				8FB530E38721FC04945EA5BE335B22F2 /* AVIMTypedMessage.h */,
-				C1CB39E2EECBB9524A2730C543833000 /* AVIMUserOptions.h */,
-				02547F444CACE734524B9A3048022CEF /* AVIMVideoMessage.h */,
-				AAED12AA6047BCEB22BA41D32C2C12DC /* AVOSCloudIM.h */,
-				B696AF3619B48391A1C3D9E1A9FE32B6 /* Frameworks */,
+				4D167AC664961926D08361C73BEF7B51 /* libAVOSCloudIM.a */,
 			);
-			path = AVOSCloudIM;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -612,7 +620,7 @@
 /* Begin XCBuildConfiguration section */
 		8B7ACA2BAD46416E979E0C179C474017 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3498DA10BFC660467F68C73A22F8BF9 /* SnapKit.xcconfig */;
+			baseConfigurationReference = 9ACA374EDDDAE6861F4C855B061A1D75 /* SnapKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -679,7 +687,7 @@
 		};
 		A1A845332FC9E8F676B0FDE7BF01FDFF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3498DA10BFC660467F68C73A22F8BF9 /* SnapKit.xcconfig */;
+			baseConfigurationReference = 9ACA374EDDDAE6861F4C855B061A1D75 /* SnapKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -770,7 +778,7 @@
 		};
 		CC29C1236EB9CE51D8D7F77A75C9BC9E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 919698AA5BD2D487844CB0EDF29B18BB /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = 98A07B224AD652947EB1B6BF44E40DA8 /* SVProgressHUD.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -828,7 +836,7 @@
 		};
 		F022C9A1C707DDD4A4E5E03B4F7FD986 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 919698AA5BD2D487844CB0EDF29B18BB /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = 98A07B224AD652947EB1B6BF44E40DA8 /* SVProgressHUD.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

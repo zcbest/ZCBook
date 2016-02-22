@@ -15,8 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        //初始化SDK
         AVOSCloud.setApplicationId("NMAIdK3dDxsu2tvsvPU5oO1T-gzGzoHsz", clientKey: "2dxwYxYzkAy7qFGu8rI4lTWd")
+        
 //        AVUser.logOut()
+        
         setKeyWindow()
 
         return true

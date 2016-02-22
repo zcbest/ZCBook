@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class NewListViewController: UIViewController {
     
@@ -15,6 +16,7 @@ class NewListViewController: UIViewController {
     var picker = UIImagePickerController()
     var tableView = UITableView()
     var arrayList:[String] = ["标题","评分","分类","书评"]
+    //书评标题
     var Book_Title = ""
     var Book_Description = ""
     var showScore = true
@@ -29,6 +31,8 @@ class NewListViewController: UIViewController {
         loadNewsListView()
         //加载tableView
         loadTableView()
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "pushBookNotification:", name: "pushBookNotification", object: nil)
     }
 
     func loadPushButtons(){
@@ -53,9 +57,25 @@ class NewListViewController: UIViewController {
     func push(){
         self.newListView.Book_Name.resignFirstResponder()
         self.newListView.Book_Author.resignFirstResponder()
-        print("发布")
+        
+        let dic = [
+            "Book_Title":self.newListView.Book_Name.text!,
+            "Book_Author":self.newListView.Book_Author.text!,
+            "BookComment_Title":self.Book_Title,
+            "BookComment_Description":self.Book_Description
+        ]
+        
+        BookCommentModel.loadData(dic)
     }
     
+    func pushBookNotification(notification: NSNotification){
+        let info = notification.userInfo
+        if info!["result"]as! String == "true"{
+            SVProgressHUD.showSuccessWithStatus("上传成功")
+        }else{
+            SVProgressHUD.showErrorWithStatus("上传失败")
+        }
+    }
     //imageButton的Action方法
     func addCoverAlert(){
         //设置picker的代理
@@ -103,6 +123,8 @@ class NewListViewController: UIViewController {
     //Swift内存管理是ARC方式，没有发生内存泄露会执行
     deinit{
         print("NewListViewController released")
+        NSNotificationCenter.defaultCenter().removeObserver(self, name: "pushBookNotification", object: nil)
+
     }
 }
 
