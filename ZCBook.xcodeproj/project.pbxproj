@@ -45,12 +45,14 @@
 		F089B3D81C7AA37900115286 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F089B3C31C7AA37900115286 /* UIScrollView+MJExtension.m */; };
 		F089B3D91C7AA37900115286 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = F089B3C51C7AA37900115286 /* UIScrollView+MJRefresh.m */; };
 		F089B3DA1C7AA37900115286 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F089B3C71C7AA37900115286 /* UIView+MJExtension.m */; };
+		F089B3DC1C7AF76B00115286 /* BookCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F089B3DB1C7AF76B00115286 /* BookCommentViewController.swift */; };
 		F0B8B0BA1C585D5E0074E139 /* NewList_TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B0B91C585D5E0074E139 /* NewList_TitleViewController.swift */; };
 		F0B8B0BC1C585D830074E139 /* NewList_CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B0BB1C585D830074E139 /* NewList_CategoryViewController.swift */; };
 		F0B8B0BE1C585D970074E139 /* NewList_DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B0BD1C585D970074E139 /* NewList_DescriptionViewController.swift */; };
 		F0B8B0C01C58A8E10074E139 /* LeadPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8B0BF1C58A8E10074E139 /* LeadPageViewController.swift */; };
 		F0CB7A171C5A24A8008ABDC5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CB7A161C5A24A8008ABDC5 /* LoginViewController.swift */; };
 		F0CB7A191C5A24BA008ABDC5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CB7A181C5A24BA008ABDC5 /* RegisterViewController.swift */; };
+		F0D476F91C7C0BD1001501A1 /* BookCommentDetailBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D476F81C7C0BD1001501A1 /* BookCommentDetailBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,12 +139,14 @@
 		F089B3C51C7AA37900115286 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		F089B3C61C7AA37900115286 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		F089B3C71C7AA37900115286 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		F089B3DB1C7AF76B00115286 /* BookCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCommentViewController.swift; sourceTree = "<group>"; };
 		F0B8B0B91C585D5E0074E139 /* NewList_TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewList_TitleViewController.swift; sourceTree = "<group>"; };
 		F0B8B0BB1C585D830074E139 /* NewList_CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewList_CategoryViewController.swift; sourceTree = "<group>"; };
 		F0B8B0BD1C585D970074E139 /* NewList_DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewList_DescriptionViewController.swift; sourceTree = "<group>"; };
 		F0B8B0BF1C58A8E10074E139 /* LeadPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadPageViewController.swift; sourceTree = "<group>"; };
 		F0CB7A161C5A24A8008ABDC5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F0CB7A181C5A24BA008ABDC5 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F0D476F81C7C0BD1001501A1 /* BookCommentDetailBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCommentDetailBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +205,7 @@
 			children = (
 				F01AFDFF1C5670F5004F2A7A /* NewListView.swift */,
 				F087683C1C79DD2C0061D26E /* NewTableViewCell.swift */,
+				F0D476F81C7C0BD1001501A1 /* BookCommentDetailBar.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				F0303DD91C5613E900434518 /* NewViewController.swift */,
+				F089B3DB1C7AF76B00115286 /* BookCommentViewController.swift */,
 				F0303DE41C562DE400434518 /* NewListViewController.swift */,
 				F0B8B0B91C585D5E0074E139 /* NewList_TitleViewController.swift */,
 				F0B8B0BB1C585D830074E139 /* NewList_CategoryViewController.swift */,
@@ -636,6 +642,7 @@
 				F0303DE51C562DE400434518 /* NewListViewController.swift in Sources */,
 				F089B3D31C7AA37900115286 /* MJRefreshGifHeader.m in Sources */,
 				F0B8B0BE1C585D970074E139 /* NewList_DescriptionViewController.swift in Sources */,
+				F0D476F91C7C0BD1001501A1 /* BookCommentDetailBar.swift in Sources */,
 				F089B3D81C7AA37900115286 /* UIScrollView+MJExtension.m in Sources */,
 				F089B3D01C7AA37900115286 /* MJRefreshBackGifFooter.m in Sources */,
 				F089B3CD1C7AA37900115286 /* MJRefreshAutoGifFooter.m in Sources */,
@@ -652,6 +659,7 @@
 				F089B3D11C7AA37900115286 /* MJRefreshBackNormalFooter.m in Sources */,
 				F0303DD81C5613C100434518 /* DiscoveryViewController.swift in Sources */,
 				F089B3CF1C7AA37900115286 /* MJRefreshAutoStateFooter.m in Sources */,
+				F089B3DC1C7AF76B00115286 /* BookCommentViewController.swift in Sources */,
 				F089B3D51C7AA37900115286 /* MJRefreshStateHeader.m in Sources */,
 				F0CB7A171C5A24A8008ABDC5 /* LoginViewController.swift in Sources */,
 				F0CB7A191C5A24BA008ABDC5 /* RegisterViewController.swift in Sources */,

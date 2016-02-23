@@ -121,13 +121,26 @@ extension NewViewController: UITableViewDelegate, UITableViewDataSource{
         return self.dataArray.count
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("NewCell", forIndexPath: indexPath) as? NewTableViewCell
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {         let cell = tableView.dequeueReusableCellWithIdentifier("NewCell", forIndexPath: indexPath) as? NewTableViewCell
         let data = self.dataArray[indexPath.row] as? AVObject
         cell?.Book_Title.text = data!["Book_Title"] as? String
         cell?.Book_Author.text = data!["Book_Author"] as? String
         cell?.Book_Image.image = UIImage(named: "Cover")
         cell?.accessoryType = .DetailButton
         return cell!
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        //不加上下面这一句，返回的时候该cell选中状态；加上这一句，返回的时候是非选中状态
+        self.tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        let vc = BookCommentViewController()
+        vc.bookObject = (self.dataArray[indexPath.row] as? AVObject)!
+        //跳转之后隐藏tabbar
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: false)
+    }
+    
+    func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        return true
     }
 }

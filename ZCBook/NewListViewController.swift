@@ -72,8 +72,9 @@ class NewListViewController: UIViewController {
         let info = notification.userInfo
         if info!["result"]as! String == "true"{
             SVProgressHUD.showSuccessWithStatus("上传成功")
+            self.navigationController?.popViewControllerAnimated(true)
         }else{
-            SVProgressHUD.showErrorWithStatus("上传失败")
+            SVProgressHUD.showErrorWithStatus("上传失败,请重新填写")
         }
     }
     //imageButton的Action方法
