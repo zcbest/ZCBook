@@ -16,8 +16,12 @@ class BookCommentViewController: UIViewController {
     var book_Author =  UILabel()
     var book_Title = UILabel()
     var date = UILabel()
+    //BookCommentView界面上的部分
     var baseView = UIView()
-
+    
+    //FirstView
+    var firstView = UIView()
+    
     var book_Discription = UITextView()
     var detailBar = BookCommentDetailBar()
     
@@ -33,6 +37,9 @@ class BookCommentViewController: UIViewController {
         loadDetailBarAction()
         //判断该书是否已经被点赞
         isLoved()
+        
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: nil, action: nil)  //返回按钮文字空
+
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -95,12 +102,17 @@ class BookCommentViewController: UIViewController {
     }
 
     func FirstAction(){
-        print("First")
+        let vc = BookCommentActionViewController()
+        vc.title = "评论"
+        vc.bookObject = self.bookObject
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     func SecondAction(){
-        
-        print("Second")
+        let vc = BookCommentAreaViewController()
+        vc.title = "讨论区"
+        vc.bookObject = self.bookObject
+        self.navigationController?.pushViewController(vc, animated: false)
     }
     
     func ThirdAction(btn: UIButton){

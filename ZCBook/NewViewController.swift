@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class NewViewController: UIViewController {
     //新建书评按钮
@@ -126,7 +127,6 @@ extension NewViewController: UITableViewDelegate, UITableViewDataSource{
         cell?.Book_Title.text = data!["Book_Title"] as? String
         cell?.Book_Author.text = data!["Book_Author"] as? String
         cell?.Book_Image.image = UIImage(named: "Cover")
-        cell?.accessoryType = .DetailButton
         return cell!
     }
     
@@ -140,7 +140,51 @@ extension NewViewController: UITableViewDelegate, UITableViewDataSource{
         self.navigationController?.pushViewController(vc, animated: false)
     }
     
-    func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return true
+    func tableView(tableView: UITableView, editActionsForRowAtIndexPath indexPath: NSIndexPath) -> [UITableViewRowAction]? {
+        let deleteAction = UITableViewRowAction(style: UITableViewRowActionStyle.Default, title: "Delete") { (action: UITableViewRowAction, indexPath: NSIndexPath) -> Void in
+            let object = self.dataArray[indexPath.row] as? AVObject
+            let id = object!["objectId"] as? String
+            let commentQuery = AVQuery(className: "BookComment")
+            commentQuery.whereKey("objectId", equalTo: id)
+            commentQuery.findObjectsInBackgroundWithBlock({ (results, error) -> Void in
+                for object in results{
+                    object.deleteInBackground()
+                }
+            })
+            
+            let discussQuery = AVQuery(className: "discuss")
+            discussQuery.whereKey("Book_Title", equalTo: object)
+            discussQuery.findObjectsInBackgroundWithBlock({ (results, error) -> Void in
+                if results != nil && results.count != 0{
+                    for object in results{
+                        object.deleteInBackground()
+                    }
+                }
+
+            })
+            
+            let loveQuery = AVQuery(className: "love")
+            loveQuery.whereKey("Book_Title", equalTo: object)
+            loveQuery.findObjectsInBackgroundWithBlock({ (results, error) -> Void in
+                if results != nil && results.count != 0{
+                    for object in results{
+                        object.deleteInBackground()
+                    }
+                }
+            })
+            
+            object?.deleteInBackgroundWithBlock({ (success, error) -> Void in
+                if success{
+                    SVProgressHUD.showSuccessWithStatus("删除成功")
+                    self.dataArray.removeObjectAtIndex(indexPath.row)
+                    self.tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Left)
+                    self.tableView.reloadData()
+                }else{
+                    SVProgressHUD.showErrorWithStatus("删除失败")
+                }
+            })
+
+        }
+        return [deleteAction]
     }
 }
